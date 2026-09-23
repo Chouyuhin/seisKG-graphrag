@@ -90,6 +90,6 @@ The prompt fixes remove the targeted fabrication modes on every catalog, includi
 
 <div align="center">
 
-Data: [Zenodo 10.5281/zenodo.21459373](https://doi.org/10.5281/zenodo.21459373) · Qiaojia: [Zhou (2026)](https://doi.org/10.48550/arXiv.2607.19606) · Ridgecrest catalog: [Shelly (2020)](https://doi.org/10.1785/0220190309) · Maduo catalog: [Guan et al. (2024)](10.1016/j.tecto.2024.230458)
+Data: [Zenodo 10.5281/zenodo.21459373](https://doi.org/10.5281/zenodo.21459373) · Qiaojia: [Zhou (2026)](https://doi.org/10.48550/arXiv.2607.19606) · Ridgecrest catalog: [Shelly (2020)](https://doi.org/10.1785/0220190309) · Maduo catalog: [Guan et al. (2024)](https://www.sciencedirect.com/science/article/pii/S0040195124002609)
 
 </div>
