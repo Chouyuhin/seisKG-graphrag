@@ -1,0 +1,121 @@
+system,catalog,condition,category,n,fabricated,out_of_scope,refusal,mainshock_misidentified,may22_as_catalog_data,n78832
+graphrag_post,Maduo,+narrative,A,20,1,1,18,,0,0
+graphrag_post,Maduo,+narrative,B,20,5,2,15,,0,0
+graphrag_post,Maduo,+narrative,C,20,9,7,8,,5,0
+graphrag_post,Maduo,+narrative,D,20,0,0,20,,0,0
+graphrag_post,Maduo,+narrative,E,20,1,0,17,,0,0
+graphrag_post,Maduo,catalog-only,A,20,0,0,20,,0,0
+graphrag_post,Maduo,catalog-only,B,20,5,1,14,,1,0
+graphrag_post,Maduo,catalog-only,C,20,13,14,4,,9,0
+graphrag_post,Maduo,catalog-only,D,20,0,0,20,,0,0
+graphrag_post,Maduo,catalog-only,E,20,1,1,19,,0,0
+graphrag_post,Qiaojia,+narrative,A,20,6,0,2,,,
+graphrag_post,Qiaojia,+narrative,B,20,10,0,7,,,
+graphrag_post,Qiaojia,+narrative,C,20,6,3,8,,,
+graphrag_post,Qiaojia,+narrative,D,20,0,0,18,,,
+graphrag_post,Qiaojia,+narrative,E,20,5,0,4,,,
+graphrag_post,Qiaojia,catalog-only,A,20,8,0,5,,,
+graphrag_post,Qiaojia,catalog-only,B,20,10,2,6,,,
+graphrag_post,Qiaojia,catalog-only,C,20,5,5,8,,,
+graphrag_post,Qiaojia,catalog-only,D,20,2,0,18,,,
+graphrag_post,Qiaojia,catalog-only,E,20,5,0,6,,,
+graphrag_post,Ridgecrest,+narrative,A,20,11,10,0,0,,
+graphrag_post,Ridgecrest,+narrative,B,20,14,3,5,0,,
+graphrag_post,Ridgecrest,+narrative,C,20,9,3,2,0,,
+graphrag_post,Ridgecrest,+narrative,D,20,3,4,16,0,,
+graphrag_post,Ridgecrest,+narrative,E,20,10,4,4,0,,
+graphrag_post,Ridgecrest,catalog-only,A,20,12,9,0,0,,
+graphrag_post,Ridgecrest,catalog-only,B,20,15,6,4,0,,
+graphrag_post,Ridgecrest,catalog-only,C,20,11,7,1,1,,
+graphrag_post,Ridgecrest,catalog-only,D,20,4,5,16,0,,
+graphrag_post,Ridgecrest,catalog-only,E,20,11,9,3,0,,
+graphrag_post2,Luding (held-out),catalog-only,A,20,12,9,8,,,
+graphrag_post2,Luding (held-out),catalog-only,B,20,6,4,10,,,
+graphrag_post2,Luding (held-out),catalog-only,C,20,4,5,15,,,
+graphrag_post2,Luding (held-out),catalog-only,D,20,1,1,19,,,
+graphrag_post2,Luding (held-out),catalog-only,E,20,6,5,13,,,
+graphrag_post2,Maduo,+narrative,A,20,13,16,3,,9,9
+graphrag_post2,Maduo,+narrative,B,20,12,8,8,,6,0
+graphrag_post2,Maduo,+narrative,C,20,12,15,7,,15,8
+graphrag_post2,Maduo,+narrative,D,20,1,2,11,,2,1
+graphrag_post2,Maduo,+narrative,E,20,11,13,6,,12,6
+graphrag_post2,Maduo,catalog-only,A,20,3,3,17,,0,0
+graphrag_post2,Maduo,catalog-only,B,20,6,3,15,,1,0
+graphrag_post2,Maduo,catalog-only,C,20,4,5,17,,0,0
+graphrag_post2,Maduo,catalog-only,D,20,0,0,20,,0,0
+graphrag_post2,Maduo,catalog-only,E,20,2,1,18,,0,0
+graphrag_post2,Qiaojia,+narrative,A,20,6,2,3,,,
+graphrag_post2,Qiaojia,+narrative,B,20,10,2,7,,,
+graphrag_post2,Qiaojia,+narrative,C,20,8,6,3,,,
+graphrag_post2,Qiaojia,+narrative,D,20,3,7,9,,,
+graphrag_post2,Qiaojia,+narrative,E,20,7,2,7,,,
+graphrag_post2,Qiaojia,catalog-only,A,20,14,6,2,,,
+graphrag_post2,Qiaojia,catalog-only,B,20,16,4,6,,,
+graphrag_post2,Qiaojia,catalog-only,C,20,7,2,12,,,
+graphrag_post2,Qiaojia,catalog-only,D,20,1,2,17,,,
+graphrag_post2,Qiaojia,catalog-only,E,20,9,6,6,,,
+graphrag_post2,Ridgecrest,+narrative,A,20,3,6,1,11,,
+graphrag_post2,Ridgecrest,+narrative,B,20,5,7,8,5,,
+graphrag_post2,Ridgecrest,+narrative,C,20,7,7,3,14,,
+graphrag_post2,Ridgecrest,+narrative,D,20,3,4,14,4,,
+graphrag_post2,Ridgecrest,+narrative,E,20,5,2,3,14,,
+graphrag_post2,Ridgecrest,catalog-only,A,20,8,6,1,1,,
+graphrag_post2,Ridgecrest,catalog-only,B,20,13,8,5,0,,
+graphrag_post2,Ridgecrest,catalog-only,C,20,13,7,5,0,,
+graphrag_post2,Ridgecrest,catalog-only,D,20,2,2,17,0,,
+graphrag_post2,Ridgecrest,catalog-only,E,20,7,4,1,3,,
+graphrag_pre,Luding (held-out),catalog-only,A,20,19,20,0,,,
+graphrag_pre,Luding (held-out),catalog-only,B,20,16,17,5,,,
+graphrag_pre,Luding (held-out),catalog-only,C,20,20,20,0,,,
+graphrag_pre,Luding (held-out),catalog-only,D,20,14,14,6,,,
+graphrag_pre,Luding (held-out),catalog-only,E,20,19,19,1,,,
+graphrag_pre,Maduo,+narrative,A,20,16,19,1,,16,18
+graphrag_pre,Maduo,+narrative,B,20,17,16,2,,9,7
+graphrag_pre,Maduo,+narrative,C,20,7,9,10,,1,1
+graphrag_pre,Maduo,+narrative,D,20,7,12,1,,10,9
+graphrag_pre,Maduo,+narrative,E,20,17,20,1,,16,15
+graphrag_pre,Maduo,catalog-only,A,20,16,13,2,,0,0
+graphrag_pre,Maduo,catalog-only,B,20,12,8,8,,3,0
+graphrag_pre,Maduo,catalog-only,C,20,13,8,2,,0,0
+graphrag_pre,Maduo,catalog-only,D,20,12,14,6,,0,0
+graphrag_pre,Maduo,catalog-only,E,20,15,13,2,,1,0
+graphrag_pre,Qiaojia,+narrative,A,20,3,2,0,,,
+graphrag_pre,Qiaojia,+narrative,B,20,10,4,6,,,
+graphrag_pre,Qiaojia,+narrative,C,20,8,4,0,,,
+graphrag_pre,Qiaojia,+narrative,D,20,2,2,3,,,
+graphrag_pre,Qiaojia,+narrative,E,20,4,3,1,,,
+graphrag_pre,Qiaojia,catalog-only,A,20,5,6,0,,,
+graphrag_pre,Qiaojia,catalog-only,B,20,11,4,3,,,
+graphrag_pre,Qiaojia,catalog-only,C,20,9,4,0,,,
+graphrag_pre,Qiaojia,catalog-only,D,20,7,10,4,,,
+graphrag_pre,Qiaojia,catalog-only,E,20,4,3,1,,,
+graphrag_pre,Ridgecrest,+narrative,A,20,4,4,0,3,,
+graphrag_pre,Ridgecrest,+narrative,B,20,9,5,5,6,,
+graphrag_pre,Ridgecrest,+narrative,C,20,5,2,0,1,,
+graphrag_pre,Ridgecrest,+narrative,D,20,6,9,3,4,,
+graphrag_pre,Ridgecrest,+narrative,E,20,3,5,0,2,,
+graphrag_pre,Ridgecrest,catalog-only,A,20,7,6,1,1,,
+graphrag_pre,Ridgecrest,catalog-only,B,20,12,8,6,0,,
+graphrag_pre,Ridgecrest,catalog-only,C,20,5,4,0,0,,
+graphrag_pre,Ridgecrest,catalog-only,D,20,3,14,4,0,,
+graphrag_pre,Ridgecrest,catalog-only,E,20,7,6,0,0,,
+vector_rag,Luding (held-out),catalog-only,A,20,2,2,19,,,
+vector_rag,Luding (held-out),catalog-only,B,20,0,0,20,,,
+vector_rag,Luding (held-out),catalog-only,C,20,1,3,19,,,
+vector_rag,Luding (held-out),catalog-only,D,20,0,0,20,,,
+vector_rag,Luding (held-out),catalog-only,E,20,1,2,20,,,
+vector_rag,Maduo,catalog-only,A,20,0,1,19,,0,0
+vector_rag,Maduo,catalog-only,B,20,0,0,20,,0,0
+vector_rag,Maduo,catalog-only,C,20,2,1,19,,0,0
+vector_rag,Maduo,catalog-only,D,20,0,0,20,,0,0
+vector_rag,Maduo,catalog-only,E,20,0,0,20,,0,0
+vector_rag,Qiaojia,catalog-only,A,20,0,0,15,,,
+vector_rag,Qiaojia,catalog-only,B,20,3,0,16,,,
+vector_rag,Qiaojia,catalog-only,C,20,4,1,9,,,
+vector_rag,Qiaojia,catalog-only,D,20,0,0,20,,,
+vector_rag,Qiaojia,catalog-only,E,20,0,0,20,,,
+vector_rag,Ridgecrest,catalog-only,A,20,3,0,7,0,,
+vector_rag,Ridgecrest,catalog-only,B,20,6,0,13,0,,
+vector_rag,Ridgecrest,catalog-only,C,20,4,1,7,1,,
+vector_rag,Ridgecrest,catalog-only,D,20,0,0,20,0,,
+vector_rag,Ridgecrest,catalog-only,E,20,3,0,15,0,,

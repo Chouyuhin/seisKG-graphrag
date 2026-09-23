@@ -1,0 +1,8 @@
+system,system_label,catalogs,n,judge_flagged,prescreen_flagged,recall,precision_score_below_3,flags_on_score3
+graphrag_post,"GraphRAG, intermediate revision","Qiaojia, Ridgecrest, Maduo",600,204,26,0.127,1.0,0
+graphrag_post2,"GraphRAG, seismology prompts","Qiaojia, Ridgecrest, Maduo",600,250,200,0.488,0.98,4
+graphrag_post2,"GraphRAG, seismology prompts (held-out Luding)",Luding,100,34,48,0.882,1.0,0
+graphrag_pre,"GraphRAG, default prompts","Qiaojia, Ridgecrest, Maduo",600,308,128,0.386,1.0,0
+graphrag_pre,"GraphRAG, default prompts (held-out Luding)",Luding,100,90,89,0.989,1.0,0
+vector_rag,Vector-RAG baseline,"Qiaojia, Ridgecrest, Maduo",300,26,1,0.0,1.0,0
+vector_rag,Vector-RAG baseline (held-out Luding),Luding,100,8,95,1.0,0.8,19

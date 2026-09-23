@@ -1,0 +1,16 @@
+index,n_entities,event_record,event_aggregate_or_garbled,geo_single_coordinate,geo_coordinate_pair,geo_date_or_year,geo_column_name_or_word,geo_other,cluster,sequence,historical_event,untyped,other_types
+"Qiaojia catalog-only, default",5247,449,951,3291,369,0,9,85,0,0,0,91,2
+"Qiaojia +narrative, default",5161,464,1012,2871,612,0,17,82,0,0,0,91,12
+"Ridgecrest catalog-only, default",1985,3,263,1063,521,0,19,41,0,0,0,75,0
+"Ridgecrest +narrative, default",2072,17,305,936,622,0,15,42,0,0,0,119,16
+"Maduo catalog-only, default",15402,1742,1212,8893,3208,14,7,106,0,0,0,215,5
+"Maduo +narrative, default",15658,1733,1495,8484,3541,0,23,111,0,0,0,242,29
+"Qiaojia catalog-only, stage 1",5670,5497,76,0,0,0,0,0,0,0,0,97,0
+"Ridgecrest catalog-only, stage 1",4840,4583,81,0,0,0,0,0,0,0,0,176,0
+"Maduo catalog-only, stage 1",11606,11325,83,0,0,0,0,0,0,0,0,198,0
+"Qiaojia catalog-only, stage 2",6157,5090,38,0,0,0,0,0,930,1,0,98,0
+"Qiaojia +narrative, stage 2",6206,5094,30,0,0,0,2,3,949,0,11,108,9
+"Ridgecrest catalog-only, stage 2",4588,4091,4,0,0,0,0,0,390,1,0,102,0
+"Ridgecrest +narrative, stage 2",4697,4081,91,0,0,0,2,0,407,3,0,104,9
+"Maduo catalog-only, stage 2",12704,10879,25,0,0,0,0,0,1527,1,0,271,1
+"Maduo +narrative, stage 2",12672,10883,25,0,0,0,6,0,1464,4,7,274,9

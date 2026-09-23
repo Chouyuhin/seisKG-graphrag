@@ -1,0 +1,46 @@
+index,workflow,run,calls,prompt,cached,completion
+"Qiaojia catalog-only, default",extract_graph,2026-01-06 19:39,796,2719772,1483648,789617
+"Qiaojia catalog-only, default",summarize_descriptions,2026-01-06 19:39,763,287094,0,136993
+"Qiaojia catalog-only, default",community_reporting,2026-01-06 19:39,146,625766,141568,107609
+"Qiaojia +narrative, default",extract_graph,2026-07-09 09:24,808,2815693,1828352,892794
+"Qiaojia +narrative, default",summarize_descriptions,2026-07-09 09:24,812,303124,0,148552
+"Qiaojia +narrative, default",community_reporting,2026-07-09 09:24,136,579314,162816,101272
+"Ridgecrest catalog-only, default",extract_graph,2026-07-08 22:15,632,2050178,1317376,504207
+"Ridgecrest catalog-only, default",summarize_descriptions,2026-07-08 22:15,580,215550,0,96301
+"Ridgecrest catalog-only, default",community_reporting,2026-07-08 22:15,83,369777,92672,63371
+"Ridgecrest +narrative, default",extract_graph,2026-07-09 09:24,644,2090385,1286400,549921
+"Ridgecrest +narrative, default",summarize_descriptions,2026-07-09 09:24,612,223264,0,105393
+"Ridgecrest +narrative, default",community_reporting,2026-07-09 09:24,89,411130,105216,66196
+"Maduo catalog-only, default",extract_graph,2026-07-09 20:08,1602,5552571,3859840,1663631
+"Maduo catalog-only, default",summarize_descriptions,2026-07-09 20:08,1607,419924,0,195648
+"Maduo catalog-only, default",community_reporting,2026-07-09 20:08,600,2270740,615936,442183
+"Maduo +narrative, default",extract_graph,2026-07-09 20:08,1620,5607795,4291200,1661171
+"Maduo +narrative, default",summarize_descriptions,2026-07-09 20:08,1571,419017,0,194666
+"Maduo +narrative, default",community_reporting,2026-07-09 20:08,641,2390135,670336,474948
+"Qiaojia catalog-only, stage 1",extract_graph,2026-07-10 08:36,796,3769745,2927360,1649621
+"Qiaojia catalog-only, stage 1",summarize_descriptions,2026-07-10 08:36,305,79581,0,51225
+"Qiaojia catalog-only, stage 1",community_reporting,2026-07-10 08:36,27,83835,34304,21306
+"Ridgecrest catalog-only, stage 1",extract_graph,2026-07-10 08:36,632,3499560,2546688,2202368
+"Ridgecrest catalog-only, stage 1",summarize_descriptions,2026-07-10 08:36,247,61608,0,35271
+"Ridgecrest catalog-only, stage 1",community_reporting,2026-07-10 08:36,98,348387,114944,83269
+"Maduo catalog-only, stage 1",extract_graph,2026-07-10 08:36,1602,8529998,7356160,4587023
+"Maduo catalog-only, stage 1",summarize_descriptions,2026-07-10 08:36,467,116676,0,63045
+"Maduo catalog-only, stage 1",community_reporting,2026-07-10 08:36,65,217079,71936,57028
+"Qiaojia catalog-only, stage 2",extract_graph,2026-07-14 20:08,796,8370824,7200640,1406607
+"Qiaojia catalog-only, stage 2",summarize_descriptions,2026-07-15 08:59,5,14461,0,591
+"Qiaojia catalog-only, stage 2",community_reporting,2026-07-14 20:08,993,3712257,1130240,780502
+"Qiaojia +narrative, stage 2",extract_graph,2026-07-14 20:08,808,8485285,8134016,1407405
+"Qiaojia +narrative, stage 2",summarize_descriptions,2026-07-14 20:08,345,164235,0,52720
+"Qiaojia +narrative, stage 2",community_reporting,2026-07-14 20:08,1026,3844178,1120896,805686
+"Ridgecrest catalog-only, stage 2",extract_graph,2026-07-15 09:07,632,6625203,5789184,1106132
+"Ridgecrest catalog-only, stage 2",summarize_descriptions,2026-07-15 09:07,247,183958,0,27931
+"Ridgecrest catalog-only, stage 2",community_reporting,2026-07-15 09:07,526,2501799,560512,420472
+"Ridgecrest +narrative, stage 2",extract_graph,2026-07-15 11:28,644,6743730,5918592,1119685
+"Ridgecrest +narrative, stage 2",summarize_descriptions,2026-07-15 11:28,264,196492,0,29374
+"Ridgecrest +narrative, stage 2",community_reporting,2026-07-15 11:28,535,2520670,604544,424773
+"Maduo catalog-only, stage 2",extract_graph,2026-07-15 21:51,943,9927362,8740224,1635789
+"Maduo catalog-only, stage 2",summarize_descriptions,2026-07-15 21:51,275,217441,0,31487
+"Maduo catalog-only, stage 2",community_reporting,2026-07-15 21:51,1723,6737397,1805568,1347678
+"Maduo +narrative, stage 2",extract_graph,2026-07-15 13:21,1620,17009381,15009664,2744807
+"Maduo +narrative, stage 2",summarize_descriptions,2026-07-15 13:21,286,228084,0,32718
+"Maduo +narrative, stage 2",community_reporting,2026-07-15 13:21,1661,6639248,1742592,1300072

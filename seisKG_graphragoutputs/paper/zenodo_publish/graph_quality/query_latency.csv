@@ -1,0 +1,15 @@
+catalog,condition,method,n,median_s,q1_s,q3_s,mean_s,max_s
+Maduo,+narrative,global,80,53.6,44.4,66.4,65.3,343.6
+Maduo,+narrative,local,20,8.6,5.4,48.2,50.3,291.6
+Maduo,catalog-only,global,80,52.2,38.3,69.2,61.2,198.9
+Maduo,catalog-only,local,20,4.0,2.5,5.9,12.2,157.0
+Qiaojia,+narrative,global,80,44.7,31.7,65.5,99.3,1248.7
+Qiaojia,+narrative,local,20,7.8,6.4,157.4,52.9,165.9
+Qiaojia,catalog-only,global,80,45.9,29.8,67.9,55.8,213.9
+Qiaojia,catalog-only,local,20,4.7,2.7,5.9,12.6,158.7
+Ridgecrest,+narrative,global,80,31.8,21.2,43.3,80.2,1396.4
+Ridgecrest,+narrative,local,20,7.5,5.5,45.9,46.2,196.2
+Ridgecrest,catalog-only,global,80,31.8,20.9,46.6,79.2,1445.8
+Ridgecrest,catalog-only,local,20,158.1,8.8,307.8,144.5,317.7
+all,all,global,480,43.9,31.0,62.8,73.5,1445.8
+all,all,local,120,7.2,4.3,48.2,53.1,317.7

@@ -1,0 +1,23 @@
+
+You are a helpful assistant responsible for generating a comprehensive summary of the data provided below.
+Given one or more entities, and a list of descriptions, all related to the same entity or group of entities.
+
+-First, check for the repetitive/templated case-
+Before doing anything else, check whether the description list consists mostly of near-identical or templated entries that each state the same kind of fact about a different small slice of a larger document (for example, a single fixed top-level entity restated once per chunk of a large source document, each time with a different chunk-specific count or date range attached). This is a DIFFERENT situation from normal multi-source summarization, and the instructions below do NOT apply to it -- do not concatenate the entries, do not list or enumerate individual per-chunk figures (dates, counts, cluster numbers, etc.), and do not attempt to sum or reconcile the many partial per-chunk numbers into a precise aggregate yourself, since adding up dozens or hundreds of small numbers this way is unreliable and must not be presented as an exact figure. Instead, write a single short paragraph (2-3 sentences) that: (a) states the constant/shared fact once, (b) notes that it recurs consistently across the source document, and (c) describes the overall scope only in qualitative terms (e.g., "spans the full source document from its earliest to latest recorded date"), explicitly leaving exact totals to be obtained by direct queries over the underlying data rather than reconstructed from this description. Stop here if this case applies -- do not proceed to the general instructions below.
+
+-Otherwise, for normal multi-source summarization-
+Please concatenate all of these into a single, comprehensive description. Make sure to include information collected from all the descriptions.
+If the provided descriptions are contradictory, please resolve the contradictions and provide a single, coherent summary.
+Make sure it is written in third person, and include the entity names so we have the full context.
+
+-Field-confusion warning-
+When merging multiple descriptions of the same entity, never invent, combine, or derive a new numeric value (magnitude, depth, latitude, longitude) that is not explicitly and separately stated as that exact field in one of the input descriptions. In particular, never mistake digits from a timestamp (e.g., the seconds or milliseconds portion of a time such as "18:48:07.880") for a magnitude, depth, or coordinate value -- these are unrelated fields even when their digits happen to look similar. If two descriptions genuinely disagree on a field's value, do not "resolve" the conflict by producing a third, larger, or more dramatic value; instead prefer whichever description's other details (exact sub-second timestamp, coordinates) most precisely match the entity's own name, and if you still cannot tell, state plainly that the descriptions disagree and both values are reported, rather than fabricating a new reconciled number.
+
+Limit the final description length to {max_length} words.
+
+#######
+-Data-
+Entities: {entity_name}
+Description List: {description_list}
+#######
+Output:

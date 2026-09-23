@@ -1,0 +1,18 @@
+comparison,n,exact,within1,weighted_kappa
+pass1 vs pass2 (all),2400,0.964,0.997,0.959
+pass1 vs pass2 (reported systems),1800,0.964,0.997,0.961
+pass1 vs pass2 (graphrag_pre),700,0.954,0.999,0.953
+pass1 vs pass2 (graphrag_post),600,0.963,0.997,0.952
+pass1 vs pass2 (graphrag_post2),700,0.963,0.997,0.957
+pass1 vs pass2 (vector_rag),400,0.985,0.995,0.976
+pass1 vs pass2 (category A),480,0.962,0.998,0.947
+pass1 vs pass2 (category B),480,0.967,1.0,0.945
+pass1 vs pass2 (category C),480,0.967,0.996,0.952
+pass1 vs pass2 (category D),480,0.96,0.992,0.957
+pass1 vs pass2 (category E),480,0.965,1.0,0.948
+previous human audit (raw) vs new score,29,0.586,0.621,-0.01
+previous human audit (convention-adjudicated) vs new score,29,0.69,0.724,0.32
+human scorer 1 vs human scorer 2 (150 blind answers),150,0.9,0.993,0.867
+human scorer 1 vs LLM judge,150,0.84,0.94,0.753
+human scorer 2 vs LLM judge,150,0.813,0.94,0.724
+consensus human score (where scorers agree) vs LLM judge,135,0.867,0.941,0.777

@@ -1,0 +1,1621 @@
+{
+ "qiaojia": {
+  "label": "Qiaojia-Dongchuan",
+  "catalog_path": "ProjectC1_Graphrag/seisKG_graphragoutputs/input/import_earthquakes.txt",
+  "narrative_path": "ProjectC1_Graphrag/seisKG_graphrag_qiaojia_narrative_v2/input/narrative_background.txt",
+  "facts_text": "GROUND TRUTH for the ingested Qiaojia-Dongchuan catalog (the only data the question refers to):\n- total events: 5218\n- time span: 2022-08-23 01:30:50 to 2023-03-17 14:22:01 (206.5 days)\n- latitude 26.01 to 27.474; longitude 102.509 to 103.477 (about 162.9 km N-S x 96.0 km E-W)\n- depth 0.19-68.82 km, mean 12.26 km, median 12.55 km; counts by interval (km): {'0-5': 552, '5-10': 1177, '10-15': 2081, '15-20': 1038, '20-30': 325, '>30': 45}\n- magnitude M-0.91 to M4.18, mean M1.4, median M1.35, std 0.5; histogram: {'[-10,0)': 20, '[0,1)': 945, '[1,2)': 3700, '[2,3)': 523, '[3,4)': 28, '[4,5)': 2}\n- events with M>=3: 30; with 2.0<=M<=3.0: 523; with M<1: 965 (18.5%)\n- largest event: 2022-10-18 22:12:35 M4.18 (27.005, 102.881) depth 2.6 km\n- top 5 by magnitude: 2022-10-18 22:12:35 M4.18 (27.005, 102.881) depth 2.6 km | 2022-10-14 19:56:35 M4.06 (27.029, 103.013) depth 8.7 km | 2022-10-14 20:03:09 M3.90 (26.952, 103.011) depth 5.1 km | 2023-02-01 19:21:42 M3.74 (27.017, 102.844) depth 12.1 km | 2022-11-13 21:06:29 M3.71 (27.024, 102.887) depth 4.4 km\n- deepest: 2022-11-26 13:53:44 M1.49 (27.081, 103.216) depth 68.8 km; shallowest: 2022-11-11 14:52:47 M2.05 (26.857, 102.922) depth 0.2 km\n- busiest day: 2023-03-08 (169 events); second: 2023-03-10 (158); busiest month: 2022-12 (1505); busiest ISO week: 2023-03-06/2023-03-12 (730)\n- quietest day with events: 2022-10-07 (2); zero-event days inside span: 0\n- mean rate: 25.26 events/day\n- monthly counts: {'2022-08': 53, '2022-09': 409, '2022-10': 637, '2022-11': 463, '2022-12': 1505, '2023-01': 732, '2023-02': 525, '2023-03': 894}\n- yearly counts: {'2022': 3067, '2023': 2151}\n- first half (to 2022-12-04): 1732 events, max M4.18, mean depth 12.13 km; second half: 3486 events, max M3.74, mean depth 12.33 km\n- first calendar month 2022-08: 53 events; last calendar month 2023-03: 894 events\n- events within 24 h after the largest event: 27; within 5 km of its epicenter: 443\n- magnitude-depth correlation: Pearson r 0.067",
+  "facts": {
+   "n_events": 5218,
+   "first_event": "2022-08-23 01:30:50 M1.38 (26.934, 102.874) depth 13.2 km",
+   "last_event": "2023-03-17 14:22:01 M1.53 (27.093, 102.850) depth 6.4 km",
+   "time_span_days": 206.5,
+   "lat_range": [
+    26.01,
+    27.474
+   ],
+   "lon_range": [
+    102.509,
+    103.477
+   ],
+   "extent_km_ns": 162.9,
+   "extent_km_ew": 96.0,
+   "depth_range_km": [
+    0.19,
+    68.82
+   ],
+   "depth_mean_km": 12.26,
+   "depth_median_km": 12.55,
+   "depth_histogram_km": {
+    "0-5": 552,
+    "5-10": 1177,
+    "10-15": 2081,
+    "15-20": 1038,
+    "20-30": 325,
+    ">30": 45
+   },
+   "mag_range": [
+    -0.91,
+    4.18
+   ],
+   "mag_mean": 1.4,
+   "mag_median": 1.35,
+   "mag_std": 0.5,
+   "mag_histogram": {
+    "[-10,0)": 20,
+    "[0,1)": 945,
+    "[1,2)": 3700,
+    "[2,3)": 523,
+    "[3,4)": 28,
+    "[4,5)": 2
+   },
+   "n_M_lt_1": 965,
+   "share_M_lt_1_pct": 18.5,
+   "n_M_ge_3": 30,
+   "M_ge_3_events": [
+    "2022-08-29 08:21:06 M3.35 (27.139, 102.864) depth 14.4 km",
+    "2022-08-29 20:01:11 M3.36 (26.952, 102.812) depth 5.7 km",
+    "2022-09-02 16:59:51 M3.20 (26.872, 102.751) depth 27.1 km",
+    "2022-09-30 20:55:54 M3.19 (27.188, 103.174) depth 8.2 km",
+    "2022-10-14 19:56:35 M4.06 (27.029, 103.013) depth 8.7 km",
+    "2022-10-14 20:03:09 M3.90 (26.952, 103.011) depth 5.1 km",
+    "2022-10-15 15:05:02 M3.31 (27.114, 102.873) depth 7.0 km",
+    "2022-10-18 22:12:35 M4.18 (27.005, 102.881) depth 2.6 km",
+    "2022-11-03 15:24:01 M3.11 (26.844, 103.073) depth 11.2 km",
+    "2022-11-12 08:59:05 M3.49 (26.978, 102.919) depth 11.8 km",
+    "2022-11-12 09:57:17 M3.14 (26.973, 102.910) depth 12.7 km",
+    "2022-11-12 16:28:46 M3.19 (26.974, 102.937) depth 8.7 km",
+    "2022-11-13 21:06:29 M3.71 (27.024, 102.887) depth 4.4 km",
+    "2022-11-13 21:56:00 M3.69 (27.003, 102.936) depth 14.4 km",
+    "2022-11-14 01:31:34 M3.40 (26.885, 102.945) depth 16.9 km",
+    "2022-11-14 01:34:11 M3.30 (26.975, 102.916) depth 11.9 km",
+    "2022-11-19 22:39:57 M3.17 (26.769, 103.085) depth 0.8 km",
+    "2022-12-01 19:06:29 M3.40 (27.080, 103.109) depth 29.6 km",
+    "2022-12-16 18:03:12 M3.36 (26.886, 102.973) depth 25.6 km",
+    "2022-12-21 19:49:53 M3.24 (26.982, 102.885) depth 23.2 km",
+    "2022-12-30 20:56:30 M3.66 (27.123, 102.882) depth 28.4 km",
+    "2022-12-30 20:59:51 M3.55 (27.104, 102.876) depth 23.7 km",
+    "2023-01-16 05:38:12 M3.52 (26.860, 102.863) depth 8.4 km",
+    "2023-01-17 04:40:37 M3.03 (27.121, 103.181) depth 5.2 km",
+    "2023-01-18 21:57:38 M3.32 (27.070, 102.785) depth 12.0 km",
+    "2023-02-01 19:21:42 M3.74 (27.017, 102.844) depth 12.1 km",
+    "2023-03-06 21:22:22 M3.01 (26.859, 102.967) depth 14.9 km",
+    "2023-03-06 23:24:45 M3.01 (26.859, 102.959) depth 13.7 km",
+    "2023-03-09 01:28:54 M3.05 (26.862, 102.959) depth 14.1 km",
+    "2023-03-10 19:51:05 M3.01 (27.022, 102.892) depth 13.7 km"
+   ],
+   "n_M_2_to_3_inclusive": 523,
+   "n_M_2_to_3_excl_upper": 523,
+   "n_M_3_to_4": 28,
+   "M_3_to_4_date_range": [
+    "2022-08-29",
+    "2023-03-10"
+   ],
+   "largest_event": "2022-10-18 22:12:35 M4.18 (27.005, 102.881) depth 2.6 km",
+   "smallest_event": "2022-11-09 14:36:26 M-0.91 (27.083, 102.767) depth 12.4 km",
+   "deepest_event": "2022-11-26 13:53:44 M1.49 (27.081, 103.216) depth 68.8 km",
+   "shallowest_event": "2022-11-11 14:52:47 M2.05 (26.857, 102.922) depth 0.2 km",
+   "top5_by_magnitude": [
+    "2022-10-18 22:12:35 M4.18 (27.005, 102.881) depth 2.6 km",
+    "2022-10-14 19:56:35 M4.06 (27.029, 103.013) depth 8.7 km",
+    "2022-10-14 20:03:09 M3.90 (26.952, 103.011) depth 5.1 km",
+    "2023-02-01 19:21:42 M3.74 (27.017, 102.844) depth 12.1 km",
+    "2022-11-13 21:06:29 M3.71 (27.024, 102.887) depth 4.4 km"
+   ],
+   "top10_by_magnitude_date_range": [
+    "2022-10-14",
+    "2023-02-01"
+   ],
+   "five_shallowest": [
+    "2022-11-11 14:52:47 M2.05 (26.857, 102.922) depth 0.2 km",
+    "2022-10-06 20:43:34 M0.46 (27.193, 102.754) depth 0.2 km",
+    "2022-12-09 10:03:58 M1.24 (27.032, 102.965) depth 0.3 km",
+    "2023-01-06 02:51:26 M1.25 (26.878, 102.945) depth 0.3 km",
+    "2022-10-14 18:18:53 M2.27 (26.902, 102.949) depth 0.6 km"
+   ],
+   "ten_earliest": [
+    "2022-08-23 01:30:50 M1.38 (26.934, 102.874) depth 13.2 km",
+    "2022-08-23 11:29:07 M1.41 (26.981, 102.819) depth 17.5 km",
+    "2022-08-23 11:32:36 M0.84 (27.083, 102.679) depth 11.3 km",
+    "2022-08-23 12:27:12 M1.11 (27.073, 102.820) depth 10.0 km",
+    "2022-08-23 14:49:50 M1.32 (27.118, 102.883) depth 26.4 km",
+    "2022-08-23 14:58:17 M1.45 (26.619, 102.931) depth 3.0 km",
+    "2022-08-23 15:05:17 M0.84 (27.139, 102.855) depth 12.7 km",
+    "2022-08-23 20:44:00 M2.17 (27.032, 102.732) depth 16.7 km",
+    "2022-08-23 20:56:13 M2.39 (26.956, 102.823) depth 14.1 km",
+    "2022-08-23 21:10:28 M0.92 (26.908, 102.867) depth 6.0 km"
+   ],
+   "five_closest_to_largest_event_epicenter": [
+    "2022-11-12 19:36:29 M1.38 (27.006, 102.885) depth 1.2 km [0.40 km]",
+    "2022-11-01 15:30:03 M1.43 (27.001, 102.880) depth 1.4 km [0.43 km]",
+    "2022-12-31 22:30:35 M0.96 (27.005, 102.886) depth 2.8 km [0.48 km]",
+    "2022-12-02 21:09:13 M0.98 (27.001, 102.883) depth 11.0 km [0.52 km]",
+    "2022-10-04 04:01:41 M1.80 (27.002, 102.876) depth 4.6 km [0.65 km]"
+   ],
+   "n_within_5km_of_largest_event": 443,
+   "n_within_24h_after_largest_event": 27,
+   "largest_within_24h_after_largest_event": "2022-10-19 01:54:32 M2.49 (26.891, 103.020) depth 25.1 km",
+   "n_depth_10_to_15km": 2082,
+   "busiest_day": [
+    "2023-03-08",
+    169
+   ],
+   "second_busiest_day": [
+    "2023-03-10",
+    158
+   ],
+   "busiest_day_events_summary": {
+    "n": 169,
+    "mag_range": [
+     0.32,
+     2.61
+    ],
+    "largest": "2023-03-08 05:45:11 M2.61 (26.866, 102.951) depth 12.1 km"
+   },
+   "quietest_day_with_events": [
+    "2022-10-07",
+    2
+   ],
+   "n_days_with_zero_events_in_span": 0,
+   "zero_event_days_examples": [],
+   "busiest_iso_week": [
+    "2023-03-06/2023-03-12",
+    730
+   ],
+   "events_per_day_mean": 25.26,
+   "monthly_counts": {
+    "2022-08": 53,
+    "2022-09": 409,
+    "2022-10": 637,
+    "2022-11": 463,
+    "2022-12": 1505,
+    "2023-01": 732,
+    "2023-02": 525,
+    "2023-03": 894
+   },
+   "busiest_month": [
+    "2022-12",
+    1505
+   ],
+   "month_with_highest_max_magnitude": [
+    "2022-10",
+    4.18
+   ],
+   "yearly_counts": {
+    "2022": 3067,
+    "2023": 2151
+   },
+   "yearly_stats": {
+    "2022": {
+     "n": 3067,
+     "mag_max": 4.18,
+     "mag_mean": 1.37,
+     "depth_mean": 12.35
+    },
+    "2023": {
+     "n": 2151,
+     "mag_max": 3.74,
+     "mag_mean": 1.44,
+     "depth_mean": 12.13
+    }
+   },
+   "first_calendar_month": {
+    "month": "2022-08",
+    "n": 53,
+    "mag_mean": 1.76,
+    "mag_max": 3.36,
+    "depth_mean": 11.67
+   },
+   "last_calendar_month": {
+    "month": "2023-03",
+    "n": 894,
+    "mag_mean": 1.46,
+    "mag_max": 3.05,
+    "depth_mean": 12.03
+   },
+   "first_30_days": {
+    "n": 387,
+    "mag_mean": 1.55,
+    "mag_max": 3.36
+   },
+   "last_30_days": {
+    "n": 1182,
+    "mag_mean": 1.44,
+    "mag_max": 3.05
+   },
+   "first_half_by_time": {
+    "until": "2022-12-04",
+    "n": 1732,
+    "mag_mean": 1.47,
+    "mag_max": 4.18,
+    "largest": "2022-10-18 22:12:35 M4.18 (27.005, 102.881) depth 2.6 km",
+    "depth_mean": 12.13,
+    "lat_std": 0.169,
+    "lon_std": 0.1207,
+    "median_interevent_h": 0.456
+   },
+   "second_half_by_time": {
+    "from": "2022-12-04",
+    "n": 3486,
+    "mag_mean": 1.37,
+    "mag_max": 3.74,
+    "largest": "2023-02-01 19:21:42 M3.74 (27.017, 102.844) depth 12.1 km",
+    "depth_mean": 12.33,
+    "lat_std": 0.1566,
+    "lon_std": 0.1103,
+    "median_interevent_h": 0.111
+   },
+   "interevent_time_hours": {
+    "median": 0.2,
+    "mean": 0.95,
+    "max": 30.4
+   },
+   "interval_between_max_and_min_magnitude_events_days": 21.68,
+   "corr_mag_depth": {
+    "pearson_r": 0.067,
+    "spearman_rho": 0.042
+   },
+   "bounds": {
+    "date_min": "2022-08-23",
+    "date_max": "2023-03-17",
+    "lat": [
+     26.01,
+     27.474
+    ],
+    "lon": [
+     102.509,
+     103.477
+    ],
+    "depth": [
+     0.19,
+     68.82
+    ],
+    "mag": [
+     -0.91,
+     4.18
+    ]
+   }
+  },
+  "per_qid_reference": {
+   "A1": null,
+   "A2": "Time range 2022-08-23 01:30:50 to 2023-03-17 14:22:01 (206.5 days); 5218 events; magnitude range M-0.91 to M4.18.",
+   "A3": null,
+   "A4": null,
+   "A5": null,
+   "A6": "Duration 206.5 days; spatial extent about 162.9 km N-S by 96.0 km E-W (lat 26.01-27.474, lon 102.509-103.477).",
+   "A7": null,
+   "A8": "Depth range 0.19-68.82 km; mean 12.26 km; median 12.55 km; histogram (km): {'0-5': 552, '5-10': 1177, '10-15': 2081, '15-20': 1038, '20-30': 325, '>30': 45}.",
+   "A9": null,
+   "A10": "Busiest month 2022-12 (1505 events); busiest day 2023-03-08 (169 events); busiest ISO week 2023-03-06/2023-03-12 (730 events).",
+   "A11": null,
+   "A12": null,
+   "A13": "Earliest event 2022-08-23 01:30:50 M1.38 (26.934, 102.874) depth 13.2 km; latest event 2023-03-17 14:22:01 M1.53 (27.093, 102.850) depth 6.4 km.",
+   "A14": null,
+   "A15": "Duration 206.5 days; spatial extent about 162.9 km N-S by 96.0 km E-W (lat 26.01-27.474, lon 102.509-103.477).",
+   "A16": "30 events with M>=3.0.",
+   "A17": null,
+   "A18": null,
+   "A19": "Last calendar month 2023-03: 894 events, max M3.05; last 30 days: 1182 events.",
+   "A20": null,
+   "B1": "Busiest day 2023-03-08 with 169 events; busiest month 2022-12 with 1505 events.",
+   "B2": "Largest event: 2022-10-18 22:12:35 M4.18 (27.005, 102.881) depth 2.6 km.",
+   "B3": "Top 5 by magnitude: 2022-10-18 22:12:35 M4.18 (27.005, 102.881) depth 2.6 km; 2022-10-14 19:56:35 M4.06 (27.029, 103.013) depth 8.7 km; 2022-10-14 20:03:09 M3.90 (26.952, 103.011) depth 5.1 km; 2023-02-01 19:21:42 M3.74 (27.017, 102.844) depth 12.1 km; 2022-11-13 21:06:29 M3.71 (27.024, 102.887) depth 4.4 km.",
+   "B4": "Deepest: 2022-11-26 13:53:44 M1.49 (27.081, 103.216) depth 68.8 km. Shallowest: 2022-11-11 14:52:47 M2.05 (26.857, 102.922) depth 0.2 km.",
+   "B5": "Median magnitude M1.35 (mean M1.4).",
+   "B6": "Quietest day with at least one event: 2022-10-07 (2 event(s)); 0 calendar days inside the span have zero events.",
+   "B7": "30 events with M>=3.0. Dates: 2022-08-29 M3.35; 2022-08-29 M3.36; 2022-09-02 M3.20; 2022-09-30 M3.19; 2022-10-14 M4.06; 2022-10-14 M3.90; 2022-10-15 M3.31; 2022-10-18 M4.18; 2022-11-03 M3.11; 2022-11-12 M3.49; 2022-11-12 M3.14; 2022-11-12 M3.19; 2022-11-13 M3.71; 2022-11-13 M3.69; 2022-11-14 M3.40; 2022-11-14 M3.30; 2022-11-19 M3.17; 2022-12-01 M3.40; 2022-12-16 M3.36; 2022-12-21 M3.24; 2022-12-30 M3.66; 2022-12-30 M3.55; 2023-01-16 M3.52; 2023-01-17 M3.03; 2023-01-18 M3.32; 2023-02-01 M3.74; 2023-03-06 M3.01; 2023-03-06 M3.01; 2023-03-09 M3.05; 2023-03-10 M3.01.",
+   "B8": "Five shallowest: 2022-11-11 14:52:47 M2.05 (26.857, 102.922) depth 0.2 km; 2022-10-06 20:43:34 M0.46 (27.193, 102.754) depth 0.2 km; 2022-12-09 10:03:58 M1.24 (27.032, 102.965) depth 0.3 km; 2023-01-06 02:51:26 M1.25 (26.878, 102.945) depth 0.3 km; 2022-10-14 18:18:53 M2.27 (26.902, 102.949) depth 0.6 km.",
+   "B9": "About 25.26 events per day (5218 events over 206.5 days).",
+   "B10": "523 events with 2.0<=M<=3.0 (523 with 2.0<=M<3.0).",
+   "B11": "Mean depth 12.26 km (median 12.55 km).",
+   "B12": "Month with the highest maximum magnitude: 2022-10 (M4.18).",
+   "B13": "Reference point taken as the largest event's epicenter. Five closest events: 2022-11-12 19:36:29 M1.38 (27.006, 102.885) depth 1.2 km [0.40 km]; 2022-11-01 15:30:03 M1.43 (27.001, 102.880) depth 1.4 km [0.43 km]; 2022-12-31 22:30:35 M0.96 (27.005, 102.886) depth 2.8 km [0.48 km]; 2022-12-02 21:09:13 M0.98 (27.001, 102.883) depth 11.0 km [0.52 km]; 2022-10-04 04:01:41 M1.80 (27.002, 102.876) depth 4.6 km [0.65 km].",
+   "B14": "Magnitude std 0.5; range M-0.91 to M4.18.",
+   "B15": "Top-10 magnitude events span 2022-10-14 to 2023-02-01.",
+   "B16": "Depth-interval counts (km): {'0-5': 552, '5-10': 1177, '10-15': 2081, '15-20': 1038, '20-30': 325, '>30': 45}.",
+   "B17": "Interval between largest (2022-10-18 22:12:35) and smallest (2022-11-09 14:36:26) magnitude events: 21.68 days.",
+   "B18": "Busiest ISO week 2023-03-06/2023-03-12 with 730 events.",
+   "B19": "Pearson r = 0.067, Spearman rho = 0.042 between magnitude and depth (weak/negligible if |r|<0.1).",
+   "B20": "5218 events in total; 965 (18.5%) have M<1.0.",
+   "C1": "Busiest day 2023-03-08: 169 events, M0.32-M2.61, largest 2023-03-08 05:45:11 M2.61 (26.866, 102.951) depth 12.1 km.",
+   "C2": "28 events with 3.0<=M<=4.0, dates 2022-08-29 to 2023-03-10.",
+   "C3": null,
+   "C4": null,
+   "C5": "Second most active day 2023-03-10 with 158 events.",
+   "C6": "27 events within 24 h after the largest event (2022-10-18 22:12:35); largest of them: 2022-10-19 01:54:32 M2.49 (26.891, 103.020) depth 25.1 km.",
+   "C7": "443 events within 5 km of the largest event's epicenter (largest-event epicenter used as 'the epicenter').",
+   "C8": "2082 events with depth 10-15 km.",
+   "C9": null,
+   "C10": null,
+   "C11": null,
+   "C12": null,
+   "C13": "27 events within 24 h after the largest event (2022-10-18 22:12:35); largest of them: 2022-10-19 01:54:32 M2.49 (26.891, 103.020) depth 25.1 km.",
+   "C14": null,
+   "C15": "Top 5 by magnitude: 2022-10-18 22:12:35 M4.18 (27.005, 102.881) depth 2.6 km; 2022-10-14 19:56:35 M4.06 (27.029, 103.013) depth 8.7 km; 2022-10-14 20:03:09 M3.90 (26.952, 103.011) depth 5.1 km; 2023-02-01 19:21:42 M3.74 (27.017, 102.844) depth 12.1 km; 2022-11-13 21:06:29 M3.71 (27.024, 102.887) depth 4.4 km.",
+   "C16": null,
+   "C17": "Ten earliest events: 2022-08-23 01:30:50 M1.38 (26.934, 102.874) depth 13.2 km; 2022-08-23 11:29:07 M1.41 (26.981, 102.819) depth 17.5 km; 2022-08-23 11:32:36 M0.84 (27.083, 102.679) depth 11.3 km; 2022-08-23 12:27:12 M1.11 (27.073, 102.820) depth 10.0 km; 2022-08-23 14:49:50 M1.32 (27.118, 102.883) depth 26.4 km; 2022-08-23 14:58:17 M1.45 (26.619, 102.931) depth 3.0 km; 2022-08-23 15:05:17 M0.84 (27.139, 102.855) depth 12.7 km; 2022-08-23 20:44:00 M2.17 (27.032, 102.732) depth 16.7 km; 2022-08-23 20:56:13 M2.39 (26.956, 102.823) depth 14.1 km; 2022-08-23 21:10:28 M0.92 (26.908, 102.867) depth 6.0 km.",
+   "C18": null,
+   "C19": null,
+   "C20": null,
+   "D1": null,
+   "D2": null,
+   "D3": null,
+   "D4": null,
+   "D5": null,
+   "D6": null,
+   "D7": null,
+   "D8": null,
+   "D9": null,
+   "D10": null,
+   "D11": null,
+   "D12": null,
+   "D13": null,
+   "D14": null,
+   "D15": null,
+   "D16": null,
+   "D17": null,
+   "D18": null,
+   "D19": null,
+   "D20": null,
+   "E1": "First half (to 2022-12-04): 1732 events, mean M1.47, max M4.18. Second half: 3486 events, mean M1.37, max M3.74.",
+   "E2": null,
+   "E3": null,
+   "E4": "First calendar month 2022-08: 53 events, mean M1.76, max M3.36. Last calendar month 2023-03: 894 events, mean M1.46, max M3.05. (First 30 days: 387; last 30 days: 1182.)",
+   "E5": null,
+   "E6": null,
+   "E7": "Mean depth first half 12.13 km vs second half 12.33 km.",
+   "E8": null,
+   "E9": "First 30 days: 387 events; last 30 days: 1182 events (compare rates).",
+   "E10": null,
+   "E11": null,
+   "E12": "Largest event in first half: 2022-10-18 22:12:35 M4.18 (27.005, 102.881) depth 2.6 km. Largest in second half: 2023-02-01 19:21:42 M3.74 (27.017, 102.844) depth 12.1 km.",
+   "E13": null,
+   "E14": null,
+   "E15": "Yearly statistics: {'2022': {'n': 3067, 'mag_max': 4.18, 'mag_mean': np.float64(1.37), 'depth_mean': np.float64(12.35)}, '2023': {'n': 2151, 'mag_max': 3.74, 'mag_mean': np.float64(1.44), 'depth_mean': np.float64(12.13)}}.",
+   "E16": null,
+   "E17": null,
+   "E18": "Median inter-event time first half 0.456 h vs second half 0.111 h (overall median 0.2 h).",
+   "E19": null,
+   "E20": null
+  }
+ },
+ "ridgecrest": {
+  "label": "2019 Ridgecrest",
+  "catalog_path": "ProjectC1_Graphrag/seisKG_graphrag_ridgecrest_v2/input/import_earthquakes.txt",
+  "narrative_path": "ProjectC1_Graphrag/seisKG_graphrag_ridgecrest_narrative_v2/input/narrative_background.txt",
+  "facts_text": "GROUND TRUTH for the ingested 2019 Ridgecrest catalog (the only data the question refers to):\n- total events: 4188\n- time span: 2019-07-04 17:02:55 to 2019-07-16 23:43:03 (12.3 days)\n- latitude 35.475 to 36.013; longitude -117.818 to -117.256 (about 59.8 km N-S x 50.7 km E-W)\n- depth 0.16-239.53 km, mean 6.58 km, median 5.44 km; counts by interval (km): {'0-5': 1930, '5-10': 1665, '10-15': 513, '15-20': 23, '20-30': 23, '>30': 34}\n- magnitude M2.0 to M7.1, mean M2.53, median M2.38, std 0.51; histogram: {'[2,3)': 3502, '[3,4)': 623, '[4,5)': 57, '[5,6)': 4, '[6,7)': 1, '[7,10)': 1}\n- events with M>=3: 686; with 2.0<=M<=3.0: 3524; with M<1: 0 (0.0%)\n- largest event: 2019-07-06 03:19:52 M7.10 (35.772, -117.594) depth 3.2 km\n- top 5 by magnitude: 2019-07-06 03:19:52 M7.10 (35.772, -117.594) depth 3.2 km | 2019-07-04 17:33:48 M6.40 (35.708, -117.499) depth 15.1 km | 2019-07-06 03:47:53 M5.50 (35.905, -117.745) depth 6.0 km | 2019-07-06 04:18:55 M5.44 (35.905, -117.684) depth 13.8 km | 2019-07-06 03:23:50 M5.37 (35.790, -117.598) depth 12.8 km\n- deepest: 2019-07-06 14:04:56 M2.23 (35.753, -117.563) depth 239.5 km; shallowest: 2019-07-04 19:49:04 M3.18 (35.685, -117.489) depth 0.2 km\n- busiest day: 2019-07-06 (1797 events); second: 2019-07-07 (562); busiest month: 2019-07 (4188); busiest ISO week: 2019-07-01/2019-07-07 (2996)\n- quietest day with events: 2019-07-15 (57); zero-event days inside span: 0\n- mean rate: 341.1 events/day\n- monthly counts: {'2019-07': 4188}\n- yearly counts: {'2019': 4188}\n- first half (to 2019-07-10): 3615 events, max M7.1, mean depth 6.62 km; second half: 573 events, max M4.9, mean depth 6.3 km\n- first calendar month 2019-07: 4188 events; last calendar month 2019-07: 4188 events\n- events within 24 h after the largest event: 1890; within 5 km of its epicenter: 419\n- magnitude-depth correlation: Pearson r 0.065",
+  "facts": {
+   "n_events": 4188,
+   "first_event": "2019-07-04 17:02:55 M3.98 (35.710, -117.500) depth 12.3 km",
+   "last_event": "2019-07-16 23:43:03 M2.45 (35.795, -117.624) depth 3.1 km",
+   "time_span_days": 12.3,
+   "lat_range": [
+    35.475,
+    36.013
+   ],
+   "lon_range": [
+    -117.818,
+    -117.256
+   ],
+   "extent_km_ns": 59.8,
+   "extent_km_ew": 50.7,
+   "depth_range_km": [
+    0.16,
+    239.53
+   ],
+   "depth_mean_km": 6.58,
+   "depth_median_km": 5.44,
+   "depth_histogram_km": {
+    "0-5": 1930,
+    "5-10": 1665,
+    "10-15": 513,
+    "15-20": 23,
+    "20-30": 23,
+    ">30": 34
+   },
+   "mag_range": [
+    2.0,
+    7.1
+   ],
+   "mag_mean": 2.53,
+   "mag_median": 2.38,
+   "mag_std": 0.51,
+   "mag_histogram": {
+    "[2,3)": 3502,
+    "[3,4)": 623,
+    "[4,5)": 57,
+    "[5,6)": 4,
+    "[6,7)": 1,
+    "[7,10)": 1
+   },
+   "n_M_lt_1": 0,
+   "share_M_lt_1_pct": 0.0,
+   "n_M_ge_3": 686,
+   "M_ge_3_events": [
+    "2019-07-04 17:02:55 M3.98 (35.710, -117.500) depth 12.3 km",
+    "2019-07-04 17:33:48 M6.40 (35.708, -117.499) depth 15.1 km",
+    "2019-07-04 17:35:01 M4.49 (35.643, -117.558) depth 10.2 km",
+    "2019-07-04 17:35:52 M3.00 (35.688, -117.509) depth 0.8 km",
+    "2019-07-04 17:36:58 M3.20 (35.725, -117.560) depth 2.6 km",
+    "2019-07-04 17:37:01 M3.54 (35.713, -117.475) depth 1.4 km",
+    "2019-07-04 17:37:14 M3.90 (35.662, -117.521) depth 1.4 km",
+    "2019-07-04 17:37:25 M3.00 (35.676, -117.457) depth 14.5 km",
+    "2019-07-04 17:37:55 M3.91 (35.744, -117.550) depth 7.4 km",
+    "2019-07-04 17:38:21 M3.25 (35.714, -117.476) depth 1.6 km",
+    "2019-07-04 17:38:47 M3.53 (35.624, -117.591) depth 9.9 km",
+    "2019-07-04 17:38:57 M3.19 (35.669, -117.520) depth 3.1 km",
+    "2019-07-04 17:39:35 M3.69 (35.684, -117.492) depth 10.9 km",
+    "2019-07-04 17:40:02 M3.75 (35.725, -117.566) depth 5.9 km",
+    "2019-07-04 17:40:18 M4.13 (35.707, -117.508) depth 183.3 km",
+    "2019-07-04 17:41:21 M3.04 (35.741, -117.539) depth 3.0 km",
+    "2019-07-04 17:42:54 M3.31 (35.730, -117.558) depth 6.5 km",
+    "2019-07-04 17:43:29 M3.56 (35.656, -117.545) depth 2.3 km",
+    "2019-07-04 17:44:32 M3.85 (35.686, -117.505) depth 3.2 km",
+    "2019-07-04 17:45:28 M3.04 (35.734, -117.533) depth 10.7 km",
+    "2019-07-04 17:46:03 M3.39 (35.641, -117.611) depth 10.8 km",
+    "2019-07-04 17:46:49 M3.38 (35.637, -117.611) depth 11.6 km",
+    "2019-07-04 17:47:17 M3.59 (35.745, -117.544) depth 85.1 km",
+    "2019-07-04 17:47:54 M3.25 (35.726, -117.561) depth 2.6 km",
+    "2019-07-04 17:48:16 M3.00 (35.748, -117.539) depth 5.6 km",
+    "2019-07-04 17:51:46 M3.39 (35.682, -117.501) depth 2.6 km",
+    "2019-07-04 17:58:02 M3.29 (35.703, -117.507) depth 5.7 km",
+    "2019-07-04 18:01:31 M3.25 (35.599, -117.598) depth 3.2 km",
+    "2019-07-04 18:03:18 M3.02 (35.747, -117.540) depth 5.6 km",
+    "2019-07-04 18:06:16 M3.78 (35.661, -117.529) depth 1.6 km",
+    "2019-07-04 18:07:09 M3.51 (35.596, -117.611) depth 1.9 km",
+    "2019-07-04 18:08:33 M3.56 (35.669, -117.507) depth 2.9 km",
+    "2019-07-04 18:08:45 M3.28 (35.712, -117.477) depth 1.7 km",
+    "2019-07-04 18:10:32 M3.46 (35.659, -117.533) depth 11.3 km",
+    "2019-07-04 18:12:52 M3.36 (35.672, -117.561) depth 7.5 km",
+    "2019-07-04 18:15:12 M3.23 (35.668, -117.519) depth 3.1 km",
+    "2019-07-04 18:16:33 M3.04 (35.723, -117.534) depth 55.6 km",
+    "2019-07-04 18:18:45 M3.28 (35.636, -117.610) depth 10.8 km",
+    "2019-07-04 18:26:03 M3.12 (35.665, -117.522) depth 2.2 km",
+    "2019-07-04 18:27:27 M3.29 (35.676, -117.511) depth 3.0 km",
+    "2019-07-04 18:27:59 M4.14 (35.747, -117.547) depth 7.4 km",
+    "2019-07-04 18:28:43 M3.85 (35.667, -117.564) depth 8.5 km",
+    "2019-07-04 18:39:44 M4.59 (35.600, -117.593) depth 31.5 km",
+    "2019-07-04 18:41:14 M3.24 (35.677, -117.512) depth 2.5 km",
+    "2019-07-04 18:44:25 M3.01 (35.720, -117.557) depth 1.6 km",
+    "2019-07-04 18:47:06 M4.34 (35.676, -117.478) depth 12.3 km",
+    "2019-07-04 18:47:22 M3.83 (35.670, -117.468) depth 11.2 km",
+    "2019-07-04 18:50:15 M3.70 (35.683, -117.492) depth 0.7 km",
+    "2019-07-04 18:53:27 M3.34 (35.729, -117.560) depth 6.7 km",
+    "2019-07-04 18:54:14 M3.92 (35.597, -117.584) depth 6.9 km",
+    "2019-07-04 18:55:27 M3.07 (35.676, -117.480) depth 10.6 km",
+    "2019-07-04 18:56:06 M4.58 (35.716, -117.554) depth 1.6 km",
+    "2019-07-04 18:56:21 M3.50 (35.710, -117.552) depth 0.6 km",
+    "2019-07-04 19:00:09 M3.21 (35.712, -117.553) depth 1.3 km",
+    "2019-07-04 19:10:19 M3.26 (35.694, -117.489) depth 1.3 km",
+    "2019-07-04 19:14:59 M3.00 (35.657, -117.535) depth 2.5 km",
+    "2019-07-04 19:17:51 M3.23 (35.696, -117.509) depth 1.4 km",
+    "2019-07-04 19:17:58 M3.00 (35.624, -117.600) depth 10.1 km",
+    "2019-07-04 19:21:32 M4.50 (35.677, -117.467) depth 10.6 km",
+    "2019-07-04 19:49:04 M3.18 (35.685, -117.489) depth 0.2 km"
+   ],
+   "n_M_2_to_3_inclusive": 3524,
+   "n_M_2_to_3_excl_upper": 3502,
+   "n_M_3_to_4": 623,
+   "M_3_to_4_date_range": [
+    "2019-07-04",
+    "2019-07-16"
+   ],
+   "largest_event": "2019-07-06 03:19:52 M7.10 (35.772, -117.594) depth 3.2 km",
+   "smallest_event": "2019-07-04 18:22:04 M2.00 (35.673, -117.529) depth 7.0 km",
+   "deepest_event": "2019-07-06 14:04:56 M2.23 (35.753, -117.563) depth 239.5 km",
+   "shallowest_event": "2019-07-04 19:49:04 M3.18 (35.685, -117.489) depth 0.2 km",
+   "top5_by_magnitude": [
+    "2019-07-06 03:19:52 M7.10 (35.772, -117.594) depth 3.2 km",
+    "2019-07-04 17:33:48 M6.40 (35.708, -117.499) depth 15.1 km",
+    "2019-07-06 03:47:53 M5.50 (35.905, -117.745) depth 6.0 km",
+    "2019-07-06 04:18:55 M5.44 (35.905, -117.684) depth 13.8 km",
+    "2019-07-06 03:23:50 M5.37 (35.790, -117.598) depth 12.8 km"
+   ],
+   "top10_by_magnitude_date_range": [
+    "2019-07-04",
+    "2019-07-06"
+   ],
+   "five_shallowest": [
+    "2019-07-04 19:49:04 M3.18 (35.685, -117.489) depth 0.2 km",
+    "2019-07-06 08:26:49 M3.42 (35.639, -117.327) depth 0.2 km",
+    "2019-07-06 00:20:06 M2.21 (35.730, -117.600) depth 0.2 km",
+    "2019-07-06 13:46:50 M2.31 (35.657, -117.477) depth 0.3 km",
+    "2019-07-05 15:00:09 M2.78 (35.682, -117.594) depth 0.3 km"
+   ],
+   "ten_earliest": [
+    "2019-07-04 17:02:55 M3.98 (35.710, -117.500) depth 12.3 km",
+    "2019-07-04 17:09:20 M2.49 (35.710, -117.499) depth 12.4 km",
+    "2019-07-04 17:12:14 M2.13 (35.708, -117.499) depth 11.9 km",
+    "2019-07-04 17:33:48 M6.40 (35.708, -117.499) depth 15.1 km",
+    "2019-07-04 17:35:01 M4.49 (35.643, -117.558) depth 10.2 km",
+    "2019-07-04 17:35:52 M3.00 (35.688, -117.509) depth 0.8 km",
+    "2019-07-04 17:36:38 M2.80 (35.723, -117.538) depth 3.5 km",
+    "2019-07-04 17:36:58 M3.20 (35.725, -117.560) depth 2.6 km",
+    "2019-07-04 17:37:01 M3.54 (35.713, -117.475) depth 1.4 km",
+    "2019-07-04 17:37:14 M3.90 (35.662, -117.521) depth 1.4 km"
+   ],
+   "five_closest_to_largest_event_epicenter": [
+    "2019-07-07 19:05:56 M2.01 (35.772, -117.593) depth 2.0 km [0.14 km]",
+    "2019-07-06 12:12:36 M3.03 (35.774, -117.595) depth 6.7 km [0.20 km]",
+    "2019-07-12 08:30:22 M2.27 (35.773, -117.596) depth 3.3 km [0.25 km]",
+    "2019-07-12 06:19:05 M2.31 (35.774, -117.596) depth 4.8 km [0.33 km]",
+    "2019-07-07 03:34:04 M2.46 (35.769, -117.594) depth 3.4 km [0.33 km]"
+   ],
+   "n_within_5km_of_largest_event": 419,
+   "n_within_24h_after_largest_event": 1890,
+   "largest_within_24h_after_largest_event": "2019-07-06 03:47:53 M5.50 (35.905, -117.745) depth 6.0 km",
+   "n_depth_10_to_15km": 513,
+   "busiest_day": [
+    "2019-07-06",
+    1797
+   ],
+   "second_busiest_day": [
+    "2019-07-07",
+    562
+   ],
+   "busiest_day_events_summary": {
+    "n": 1797,
+    "mag_range": [
+     2.0,
+     7.1
+    ],
+    "largest": "2019-07-06 03:19:52 M7.10 (35.772, -117.594) depth 3.2 km"
+   },
+   "quietest_day_with_events": [
+    "2019-07-15",
+    57
+   ],
+   "n_days_with_zero_events_in_span": 0,
+   "zero_event_days_examples": [],
+   "busiest_iso_week": [
+    "2019-07-01/2019-07-07",
+    2996
+   ],
+   "events_per_day_mean": 341.1,
+   "monthly_counts": {
+    "2019-07": 4188
+   },
+   "busiest_month": [
+    "2019-07",
+    4188
+   ],
+   "month_with_highest_max_magnitude": [
+    "2019-07",
+    7.1
+   ],
+   "yearly_counts": {
+    "2019": 4188
+   },
+   "yearly_stats": {
+    "2019": {
+     "n": 4188,
+     "mag_max": 7.1,
+     "mag_mean": 2.53,
+     "depth_mean": 6.58
+    }
+   },
+   "first_calendar_month": {
+    "month": "2019-07",
+    "n": 4188,
+    "mag_mean": 2.53,
+    "mag_max": 7.1,
+    "depth_mean": 6.58
+   },
+   "last_calendar_month": {
+    "month": "2019-07",
+    "n": 4188,
+    "mag_mean": 2.53,
+    "mag_max": 7.1,
+    "depth_mean": 6.58
+   },
+   "first_30_days": {
+    "n": 4188,
+    "mag_mean": 2.53,
+    "mag_max": 7.1
+   },
+   "last_30_days": {
+    "n": 4188,
+    "mag_mean": 2.53,
+    "mag_max": 7.1
+   },
+   "first_half_by_time": {
+    "until": "2019-07-10",
+    "n": 3615,
+    "mag_mean": 2.55,
+    "mag_max": 7.1,
+    "largest": "2019-07-06 03:19:52 M7.10 (35.772, -117.594) depth 3.2 km",
+    "depth_mean": 6.62,
+    "lat_std": 0.1164,
+    "lon_std": 0.1107,
+    "median_interevent_h": 0.013
+   },
+   "second_half_by_time": {
+    "from": "2019-07-10",
+    "n": 573,
+    "mag_mean": 2.42,
+    "mag_max": 4.9,
+    "largest": "2019-07-12 13:11:37 M4.90 (35.636, -117.582) depth 12.2 km",
+    "depth_mean": 6.3,
+    "lat_std": 0.1348,
+    "lon_std": 0.1222,
+    "median_interevent_h": 0.164
+   },
+   "interevent_time_hours": {
+    "median": 0.016,
+    "mean": 0.07,
+    "max": 1.7
+   },
+   "interval_between_max_and_min_magnitude_events_days": 1.37,
+   "corr_mag_depth": {
+    "pearson_r": 0.065,
+    "spearman_rho": 0.028
+   },
+   "bounds": {
+    "date_min": "2019-07-04",
+    "date_max": "2019-07-16",
+    "lat": [
+     35.475,
+     36.013
+    ],
+    "lon": [
+     -117.818,
+     -117.256
+    ],
+    "depth": [
+     0.16,
+     239.53
+    ],
+    "mag": [
+     2.0,
+     7.1
+    ]
+   }
+  },
+  "per_qid_reference": {
+   "A1": null,
+   "A2": "Time range 2019-07-04 17:02:55 to 2019-07-16 23:43:03 (12.3 days); 4188 events; magnitude range M2.0 to M7.1.",
+   "A3": null,
+   "A4": null,
+   "A5": null,
+   "A6": "Duration 12.3 days; spatial extent about 59.8 km N-S by 50.7 km E-W (lat 35.475-36.013, lon -117.818--117.256).",
+   "A7": null,
+   "A8": "Depth range 0.16-239.53 km; mean 6.58 km; median 5.44 km; histogram (km): {'0-5': 1930, '5-10': 1665, '10-15': 513, '15-20': 23, '20-30': 23, '>30': 34}.",
+   "A9": null,
+   "A10": "Busiest month 2019-07 (4188 events); busiest day 2019-07-06 (1797 events); busiest ISO week 2019-07-01/2019-07-07 (2996 events).",
+   "A11": null,
+   "A12": null,
+   "A13": "Earliest event 2019-07-04 17:02:55 M3.98 (35.710, -117.500) depth 12.3 km; latest event 2019-07-16 23:43:03 M2.45 (35.795, -117.624) depth 3.1 km.",
+   "A14": null,
+   "A15": "Duration 12.3 days; spatial extent about 59.8 km N-S by 50.7 km E-W (lat 35.475-36.013, lon -117.818--117.256).",
+   "A16": "686 events with M>=3.0.",
+   "A17": null,
+   "A18": null,
+   "A19": "Last calendar month 2019-07: 4188 events, max M7.1; last 30 days: 4188 events.",
+   "A20": null,
+   "B1": "Busiest day 2019-07-06 with 1797 events; busiest month 2019-07 with 4188 events.",
+   "B2": "Largest event: 2019-07-06 03:19:52 M7.10 (35.772, -117.594) depth 3.2 km.",
+   "B3": "Top 5 by magnitude: 2019-07-06 03:19:52 M7.10 (35.772, -117.594) depth 3.2 km; 2019-07-04 17:33:48 M6.40 (35.708, -117.499) depth 15.1 km; 2019-07-06 03:47:53 M5.50 (35.905, -117.745) depth 6.0 km; 2019-07-06 04:18:55 M5.44 (35.905, -117.684) depth 13.8 km; 2019-07-06 03:23:50 M5.37 (35.790, -117.598) depth 12.8 km.",
+   "B4": "Deepest: 2019-07-06 14:04:56 M2.23 (35.753, -117.563) depth 239.5 km. Shallowest: 2019-07-04 19:49:04 M3.18 (35.685, -117.489) depth 0.2 km.",
+   "B5": "Median magnitude M2.38 (mean M2.53).",
+   "B6": "Quietest day with at least one event: 2019-07-15 (57 event(s)); 0 calendar days inside the span have zero events.",
+   "B7": "686 events with M>=3.0. Dates: 2019-07-04 M3.98; 2019-07-04 M6.40; 2019-07-04 M4.49; 2019-07-04 M3.00; 2019-07-04 M3.20; 2019-07-04 M3.54; 2019-07-04 M3.90; 2019-07-04 M3.00; 2019-07-04 M3.91; 2019-07-04 M3.25; 2019-07-04 M3.53; 2019-07-04 M3.19; 2019-07-04 M3.69; 2019-07-04 M3.75; 2019-07-04 M4.13; 2019-07-04 M3.04; 2019-07-04 M3.31; 2019-07-04 M3.56; 2019-07-04 M3.85; 2019-07-04 M3.04; 2019-07-04 M3.39; 2019-07-04 M3.38; 2019-07-04 M3.59; 2019-07-04 M3.25; 2019-07-04 M3.00; 2019-07-04 M3.39; 2019-07-04 M3.29; 2019-07-04 M3.25; 2019-07-04 M3.02; 2019-07-04 M3.78....",
+   "B8": "Five shallowest: 2019-07-04 19:49:04 M3.18 (35.685, -117.489) depth 0.2 km; 2019-07-06 08:26:49 M3.42 (35.639, -117.327) depth 0.2 km; 2019-07-06 00:20:06 M2.21 (35.730, -117.600) depth 0.2 km; 2019-07-06 13:46:50 M2.31 (35.657, -117.477) depth 0.3 km; 2019-07-05 15:00:09 M2.78 (35.682, -117.594) depth 0.3 km.",
+   "B9": "About 341.1 events per day (4188 events over 12.3 days).",
+   "B10": "3524 events with 2.0<=M<=3.0 (3502 with 2.0<=M<3.0).",
+   "B11": "Mean depth 6.58 km (median 5.44 km).",
+   "B12": "Month with the highest maximum magnitude: 2019-07 (M7.1).",
+   "B13": "Reference point taken as the largest event's epicenter. Five closest events: 2019-07-07 19:05:56 M2.01 (35.772, -117.593) depth 2.0 km [0.14 km]; 2019-07-06 12:12:36 M3.03 (35.774, -117.595) depth 6.7 km [0.20 km]; 2019-07-12 08:30:22 M2.27 (35.773, -117.596) depth 3.3 km [0.25 km]; 2019-07-12 06:19:05 M2.31 (35.774, -117.596) depth 4.8 km [0.33 km]; 2019-07-07 03:34:04 M2.46 (35.769, -117.594) depth 3.4 km [0.33 km].",
+   "B14": "Magnitude std 0.51; range M2.0 to M7.1.",
+   "B15": "Top-10 magnitude events span 2019-07-04 to 2019-07-06.",
+   "B16": "Depth-interval counts (km): {'0-5': 1930, '5-10': 1665, '10-15': 513, '15-20': 23, '20-30': 23, '>30': 34}.",
+   "B17": "Interval between largest (2019-07-06 03:19:52) and smallest (2019-07-04 18:22:04) magnitude events: 1.37 days.",
+   "B18": "Busiest ISO week 2019-07-01/2019-07-07 with 2996 events.",
+   "B19": "Pearson r = 0.065, Spearman rho = 0.028 between magnitude and depth (weak/negligible if |r|<0.1).",
+   "B20": "4188 events in total; 0 (0.0%) have M<1.0.",
+   "C1": "Busiest day 2019-07-06: 1797 events, M2.0-M7.1, largest 2019-07-06 03:19:52 M7.10 (35.772, -117.594) depth 3.2 km.",
+   "C2": "623 events with 3.0<=M<=4.0, dates 2019-07-04 to 2019-07-16.",
+   "C3": null,
+   "C4": null,
+   "C5": "Second most active day 2019-07-07 with 562 events.",
+   "C6": "1890 events within 24 h after the largest event (2019-07-06 03:19:52); largest of them: 2019-07-06 03:47:53 M5.50 (35.905, -117.745) depth 6.0 km.",
+   "C7": "419 events within 5 km of the largest event's epicenter (largest-event epicenter used as 'the epicenter').",
+   "C8": "513 events with depth 10-15 km.",
+   "C9": null,
+   "C10": null,
+   "C11": null,
+   "C12": null,
+   "C13": "1890 events within 24 h after the largest event (2019-07-06 03:19:52); largest of them: 2019-07-06 03:47:53 M5.50 (35.905, -117.745) depth 6.0 km.",
+   "C14": null,
+   "C15": "Top 5 by magnitude: 2019-07-06 03:19:52 M7.10 (35.772, -117.594) depth 3.2 km; 2019-07-04 17:33:48 M6.40 (35.708, -117.499) depth 15.1 km; 2019-07-06 03:47:53 M5.50 (35.905, -117.745) depth 6.0 km; 2019-07-06 04:18:55 M5.44 (35.905, -117.684) depth 13.8 km; 2019-07-06 03:23:50 M5.37 (35.790, -117.598) depth 12.8 km.",
+   "C16": null,
+   "C17": "Ten earliest events: 2019-07-04 17:02:55 M3.98 (35.710, -117.500) depth 12.3 km; 2019-07-04 17:09:20 M2.49 (35.710, -117.499) depth 12.4 km; 2019-07-04 17:12:14 M2.13 (35.708, -117.499) depth 11.9 km; 2019-07-04 17:33:48 M6.40 (35.708, -117.499) depth 15.1 km; 2019-07-04 17:35:01 M4.49 (35.643, -117.558) depth 10.2 km; 2019-07-04 17:35:52 M3.00 (35.688, -117.509) depth 0.8 km; 2019-07-04 17:36:38 M2.80 (35.723, -117.538) depth 3.5 km; 2019-07-04 17:36:58 M3.20 (35.725, -117.560) depth 2.6 km; 2019-07-04 17:37:01 M3.54 (35.713, -117.475) depth 1.4 km; 2019-07-04 17:37:14 M3.90 (35.662, -117.521) depth 1.4 km.",
+   "C18": null,
+   "C19": null,
+   "C20": null,
+   "D1": null,
+   "D2": null,
+   "D3": null,
+   "D4": null,
+   "D5": null,
+   "D6": null,
+   "D7": null,
+   "D8": null,
+   "D9": null,
+   "D10": null,
+   "D11": null,
+   "D12": null,
+   "D13": null,
+   "D14": null,
+   "D15": null,
+   "D16": null,
+   "D17": null,
+   "D18": null,
+   "D19": null,
+   "D20": null,
+   "E1": "First half (to 2019-07-10): 3615 events, mean M2.55, max M7.1. Second half: 573 events, mean M2.42, max M4.9.",
+   "E2": null,
+   "E3": null,
+   "E4": "First calendar month 2019-07: 4188 events, mean M2.53, max M7.1. Last calendar month 2019-07: 4188 events, mean M2.53, max M7.1. (First 30 days: 4188; last 30 days: 4188.)",
+   "E5": null,
+   "E6": null,
+   "E7": "Mean depth first half 6.62 km vs second half 6.3 km.",
+   "E8": null,
+   "E9": "First 30 days: 4188 events; last 30 days: 4188 events (compare rates).",
+   "E10": null,
+   "E11": null,
+   "E12": "Largest event in first half: 2019-07-06 03:19:52 M7.10 (35.772, -117.594) depth 3.2 km. Largest in second half: 2019-07-12 13:11:37 M4.90 (35.636, -117.582) depth 12.2 km.",
+   "E13": null,
+   "E14": null,
+   "E15": "Yearly statistics: {'2019': {'n': 4188, 'mag_max': 7.1, 'mag_mean': np.float64(2.53), 'depth_mean': np.float64(6.58)}}.",
+   "E16": null,
+   "E17": null,
+   "E18": "Median inter-event time first half 0.013 h vs second half 0.164 h (overall median 0.016 h).",
+   "E19": null,
+   "E20": null
+  }
+ },
+ "maduo": {
+  "label": "2021 Maduo",
+  "catalog_path": "ProjectC1_Graphrag/seisKG_graphrag_maduo/input/import_earthquakes.txt",
+  "narrative_path": "ProjectC1_Graphrag/seisKG_graphrag_maduo_narrative_v2/input/narrative_background.txt",
+  "facts_text": "GROUND TRUTH for the ingested 2021 Maduo catalog (the only data the question refers to):\n- total events: 10621\n- time span: 2021-06-01 07:25:33 to 2023-06-08 20:38:50 (737.6 days)\n- latitude 33.753 to 35.383; longitude 97.348 to 99.471 (about 181.3 km N-S x 194.2 km E-W)\n- depth 0.09-18.63 km, mean 10.29 km, median 10.76 km; counts by interval (km): {'0-5': 488, '5-10': 3693, '10-15': 6282, '15-20': 158, '20-30': 0, '>30': 0}\n- magnitude M0.5 to M4.7, mean M0.86, median M0.7, std 0.47; histogram: {'[0,1)': 7749, '[1,2)': 2472, '[2,3)': 335, '[3,4)': 59, '[4,5)': 6}\n- events with M>=3: 65; with 2.0<=M<=3.0: 347; with M<1: 7749 (73.0%)\n- largest event: 2021-07-08 13:23:23 M4.70 (34.717, 97.984) depth 10.6 km\n- top 5 by magnitude: 2021-07-08 13:23:23 M4.70 (34.717, 97.984) depth 10.6 km | 2021-08-10 22:35:56 M4.70 (34.635, 98.313) depth 10.9 km | 2021-06-03 05:55:16 M4.30 (34.708, 97.893) depth 14.2 km | 2021-07-06 01:50:51 M4.20 (34.667, 98.268) depth 10.7 km | 2021-07-07 07:27:09 M4.20 (34.493, 98.995) depth 9.6 km\n- deepest: 2022-06-14 20:31:18 M0.70 (34.973, 97.624) depth 18.6 km; shallowest: 2023-02-23 10:43:40 M0.60 (34.717, 99.100) depth 0.1 km\n- busiest day: 2021-07-24 (148 events); second: 2021-06-14 (123); busiest month: 2021-06 (2425); busiest ISO week: 2021-06-14/2021-06-20 (689)\n- quietest day with events: 2023-06-08 (1); zero-event days inside span: 16\n- mean rate: 14.4 events/day\n- monthly counts: {'2021-06': 2425, '2021-07': 1823, '2021-08': 1018, '2021-09': 613, '2021-10': 605, '2021-11': 460, '2021-12': 479, '2022-01': 353, '2022-02': 365, '2022-03': 255, '2022-04': 233, '2022-05': 188, '2022-06': 171, '2022-07': 160, '2022-08': 143, '2022-09': 204, '2022-10': 166, '2022-11': 225, '2022-12': 158, '2023-01': 158, '2023-02': 100, '2023-03': 117, '2023-04': 86, '2023-05': 97, '2023-06': 19}\n- yearly counts: {'2021': 7423, '2022': 2621, '2023': 577}\n- first half (to 2022-06-05): 8853 events, max M4.7, mean depth 10.23 km; second half: 1768 events, max M3.7, mean depth 10.6 km\n- first calendar month 2021-06: 2425 events; last calendar month 2023-06: 19 events\n- events within 24 h after the largest event: 127; within 5 km of its epicenter: 666\n- magnitude-depth correlation: Pearson r -0.021",
+  "facts": {
+   "n_events": 10621,
+   "first_event": "2021-06-01 07:25:33 M0.50 (34.625, 98.424) depth 9.6 km",
+   "last_event": "2023-06-08 20:38:50 M0.60 (34.571, 98.612) depth 11.0 km",
+   "time_span_days": 737.6,
+   "lat_range": [
+    33.753,
+    35.383
+   ],
+   "lon_range": [
+    97.348,
+    99.471
+   ],
+   "extent_km_ns": 181.3,
+   "extent_km_ew": 194.2,
+   "depth_range_km": [
+    0.09,
+    18.63
+   ],
+   "depth_mean_km": 10.29,
+   "depth_median_km": 10.76,
+   "depth_histogram_km": {
+    "0-5": 488,
+    "5-10": 3693,
+    "10-15": 6282,
+    "15-20": 158,
+    "20-30": 0,
+    ">30": 0
+   },
+   "mag_range": [
+    0.5,
+    4.7
+   ],
+   "mag_mean": 0.86,
+   "mag_median": 0.7,
+   "mag_std": 0.47,
+   "mag_histogram": {
+    "[0,1)": 7749,
+    "[1,2)": 2472,
+    "[2,3)": 335,
+    "[3,4)": 59,
+    "[4,5)": 6
+   },
+   "n_M_lt_1": 7749,
+   "share_M_lt_1_pct": 73.0,
+   "n_M_ge_3": 65,
+   "M_ge_3_events": [
+    "2021-06-01 12:33:18 M3.20 (34.631, 98.461) depth 12.9 km",
+    "2021-06-01 18:10:40 M3.20 (34.591, 98.534) depth 9.3 km",
+    "2021-06-03 05:55:16 M4.30 (34.708, 97.893) depth 14.2 km",
+    "2021-06-03 18:29:40 M3.00 (34.692, 98.124) depth 10.1 km",
+    "2021-06-06 07:31:41 M3.80 (34.611, 98.477) depth 9.3 km",
+    "2021-06-09 17:43:03 M3.40 (34.715, 97.938) depth 10.2 km",
+    "2021-06-10 18:59:29 M3.20 (34.478, 98.996) depth 8.2 km",
+    "2021-06-12 05:23:20 M3.20 (34.718, 97.952) depth 8.2 km",
+    "2021-06-12 11:18:51 M3.20 (34.678, 98.172) depth 5.8 km",
+    "2021-06-12 12:35:09 M3.00 (34.495, 98.994) depth 9.0 km",
+    "2021-06-12 12:48:20 M3.50 (34.779, 97.540) depth 14.5 km",
+    "2021-06-13 20:38:33 M3.00 (34.511, 98.768) depth 13.3 km",
+    "2021-06-13 21:25:05 M3.00 (34.516, 98.771) depth 7.4 km",
+    "2021-06-15 04:00:14 M3.60 (34.746, 97.523) depth 9.9 km",
+    "2021-06-15 22:26:06 M3.10 (34.716, 97.976) depth 6.5 km",
+    "2021-06-16 05:27:12 M3.40 (34.722, 97.904) depth 5.3 km",
+    "2021-06-16 05:39:32 M3.00 (34.725, 97.912) depth 6.0 km",
+    "2021-06-17 14:58:24 M3.10 (34.811, 97.539) depth 13.8 km",
+    "2021-06-19 13:34:04 M3.10 (34.621, 98.501) depth 12.9 km",
+    "2021-06-22 01:36:36 M3.20 (34.772, 97.500) depth 12.9 km",
+    "2021-06-23 04:17:21 M3.10 (34.764, 97.517) depth 11.9 km",
+    "2021-07-01 18:43:44 M3.00 (34.599, 98.548) depth 11.7 km",
+    "2021-07-02 13:45:52 M3.20 (34.494, 98.997) depth 9.4 km",
+    "2021-07-03 13:25:54 M3.40 (34.716, 97.897) depth 1.6 km",
+    "2021-07-06 01:50:51 M4.20 (34.667, 98.268) depth 10.7 km",
+    "2021-07-07 07:27:09 M4.20 (34.493, 98.995) depth 9.6 km",
+    "2021-07-07 10:01:19 M3.90 (34.506, 98.922) depth 5.2 km",
+    "2021-07-08 09:25:29 M3.00 (34.505, 99.087) depth 12.6 km",
+    "2021-07-08 13:23:23 M4.70 (34.717, 97.984) depth 10.6 km",
+    "2021-07-09 06:29:29 M3.50 (34.717, 97.974) depth 6.4 km",
+    "2021-07-10 05:25:05 M3.10 (34.718, 97.988) depth 7.1 km",
+    "2021-07-13 14:30:51 M3.00 (34.473, 99.029) depth 8.9 km",
+    "2021-07-17 02:22:56 M3.10 (34.716, 97.988) depth 6.8 km",
+    "2021-07-17 04:45:18 M3.00 (34.715, 97.976) depth 5.7 km",
+    "2021-07-17 05:12:41 M3.10 (34.720, 97.957) depth 7.9 km",
+    "2021-07-26 03:12:23 M3.30 (34.666, 98.269) depth 7.9 km",
+    "2021-08-10 22:35:56 M4.70 (34.635, 98.313) depth 10.9 km",
+    "2021-08-13 04:23:35 M3.10 (34.530, 97.576) depth 8.2 km",
+    "2021-08-13 08:27:38 M3.70 (34.528, 97.575) depth 8.8 km",
+    "2021-08-22 07:27:38 M3.00 (34.502, 98.946) depth 13.2 km",
+    "2021-08-28 10:44:47 M3.30 (34.734, 97.974) depth 8.6 km",
+    "2021-09-11 20:44:07 M3.10 (34.663, 98.280) depth 8.6 km",
+    "2021-10-07 05:32:18 M3.30 (34.776, 97.596) depth 14.7 km",
+    "2021-10-07 15:52:15 M3.00 (34.594, 98.511) depth 13.7 km",
+    "2021-11-09 16:52:41 M3.60 (34.556, 98.622) depth 14.2 km",
+    "2021-11-09 17:52:38 M3.40 (34.557, 98.621) depth 14.0 km",
+    "2021-11-28 21:52:43 M3.50 (34.428, 99.102) depth 5.2 km",
+    "2021-12-12 10:30:11 M3.10 (34.641, 98.332) depth 9.6 km",
+    "2021-12-15 09:02:23 M3.20 (34.502, 98.874) depth 13.2 km",
+    "2021-12-28 19:31:19 M3.10 (34.583, 98.590) depth 10.9 km",
+    "2022-01-13 13:32:46 M3.60 (34.701, 98.043) depth 6.0 km",
+    "2022-01-17 14:54:19 M3.00 (34.509, 99.288) depth 14.1 km",
+    "2022-02-21 22:45:58 M4.10 (34.456, 99.026) depth 8.2 km",
+    "2022-03-10 01:36:20 M3.50 (34.545, 98.777) depth 11.1 km",
+    "2022-04-08 21:38:07 M3.80 (34.493, 99.067) depth 13.1 km",
+    "2022-05-30 04:05:08 M3.20 (34.684, 98.010) depth 6.9 km",
+    "2022-06-01 06:53:44 M3.60 (34.514, 98.940) depth 8.2 km",
+    "2022-07-28 16:32:14 M3.70 (34.734, 97.864) depth 9.8 km",
+    "2022-08-04 05:12:53 M3.10 (34.506, 99.064) depth 11.8 km",
+    "2022-09-19 20:59:02 M3.20 (34.463, 99.074) depth 10.7 km"
+   ],
+   "n_M_2_to_3_inclusive": 347,
+   "n_M_2_to_3_excl_upper": 335,
+   "n_M_3_to_4": 59,
+   "M_3_to_4_date_range": [
+    "2021-06-01",
+    "2023-06-03"
+   ],
+   "largest_event": "2021-07-08 13:23:23 M4.70 (34.717, 97.984) depth 10.6 km",
+   "smallest_event": "2021-06-01 07:25:33 M0.50 (34.625, 98.424) depth 9.6 km",
+   "deepest_event": "2022-06-14 20:31:18 M0.70 (34.973, 97.624) depth 18.6 km",
+   "shallowest_event": "2023-02-23 10:43:40 M0.60 (34.717, 99.100) depth 0.1 km",
+   "top5_by_magnitude": [
+    "2021-07-08 13:23:23 M4.70 (34.717, 97.984) depth 10.6 km",
+    "2021-08-10 22:35:56 M4.70 (34.635, 98.313) depth 10.9 km",
+    "2021-06-03 05:55:16 M4.30 (34.708, 97.893) depth 14.2 km",
+    "2021-07-06 01:50:51 M4.20 (34.667, 98.268) depth 10.7 km",
+    "2021-07-07 07:27:09 M4.20 (34.493, 98.995) depth 9.6 km"
+   ],
+   "top10_by_magnitude_date_range": [
+    "2021-06-03",
+    "2023-05-14"
+   ],
+   "five_shallowest": [
+    "2023-02-23 10:43:40 M0.60 (34.717, 99.100) depth 0.1 km",
+    "2022-10-18 22:17:56 M0.70 (34.166, 98.197) depth 0.1 km",
+    "2021-10-16 02:35:46 M1.00 (34.487, 99.187) depth 0.1 km",
+    "2022-03-30 21:15:46 M0.70 (34.155, 99.471) depth 0.2 km",
+    "2023-05-14 17:02:09 M0.50 (34.267, 97.932) depth 0.2 km"
+   ],
+   "ten_earliest": [
+    "2021-06-01 07:25:33 M0.50 (34.625, 98.424) depth 9.6 km",
+    "2021-06-01 09:46:28 M0.50 (34.627, 98.475) depth 12.2 km",
+    "2021-06-01 10:07:15 M1.20 (34.565, 98.604) depth 12.1 km",
+    "2021-06-01 11:00:43 M1.10 (34.630, 98.481) depth 9.7 km",
+    "2021-06-01 11:11:31 M0.90 (34.618, 98.492) depth 12.7 km",
+    "2021-06-01 11:43:53 M2.00 (34.603, 98.494) depth 12.9 km",
+    "2021-06-01 12:10:32 M1.10 (34.628, 98.416) depth 10.1 km",
+    "2021-06-01 12:24:14 M1.30 (34.619, 98.473) depth 8.9 km",
+    "2021-06-01 12:25:31 M1.50 (34.591, 98.534) depth 9.3 km",
+    "2021-06-01 12:33:18 M3.20 (34.631, 98.461) depth 12.9 km"
+   ],
+   "five_closest_to_largest_event_epicenter": [
+    "2021-11-26 09:20:23 M0.70 (34.718, 97.983) depth 6.9 km [0.07 km]",
+    "2021-07-08 14:11:14 M0.70 (34.718, 97.984) depth 7.1 km [0.09 km]",
+    "2021-07-08 22:25:47 M1.10 (34.718, 97.984) depth 5.7 km [0.12 km]",
+    "2022-01-05 11:41:22 M0.50 (34.719, 97.984) depth 10.9 km [0.18 km]",
+    "2021-06-16 04:29:10 M0.50 (34.718, 97.982) depth 5.6 km [0.19 km]"
+   ],
+   "n_within_5km_of_largest_event": 666,
+   "n_within_24h_after_largest_event": 127,
+   "largest_within_24h_after_largest_event": "2021-07-09 06:29:29 M3.50 (34.717, 97.974) depth 6.4 km",
+   "n_depth_10_to_15km": 6282,
+   "busiest_day": [
+    "2021-07-24",
+    148
+   ],
+   "second_busiest_day": [
+    "2021-06-14",
+    123
+   ],
+   "busiest_day_events_summary": {
+    "n": 148,
+    "mag_range": [
+     0.5,
+     2.6
+    ],
+    "largest": "2021-07-24 03:59:56 M2.60 (34.739, 97.753) depth 11.1 km"
+   },
+   "quietest_day_with_events": [
+    "2023-06-08",
+    1
+   ],
+   "n_days_with_zero_events_in_span": 16,
+   "zero_event_days_examples": [
+    "2022-10-21",
+    "2023-02-05",
+    "2023-02-19",
+    "2023-03-10",
+    "2023-03-11",
+    "2023-04-05",
+    "2023-04-08",
+    "2023-04-19",
+    "2023-04-24",
+    "2023-04-26",
+    "2023-05-01",
+    "2023-05-09",
+    "2023-05-19",
+    "2023-05-24",
+    "2023-05-25"
+   ],
+   "busiest_iso_week": [
+    "2021-06-14/2021-06-20",
+    689
+   ],
+   "events_per_day_mean": 14.4,
+   "monthly_counts": {
+    "2021-06": 2425,
+    "2021-07": 1823,
+    "2021-08": 1018,
+    "2021-09": 613,
+    "2021-10": 605,
+    "2021-11": 460,
+    "2021-12": 479,
+    "2022-01": 353,
+    "2022-02": 365,
+    "2022-03": 255,
+    "2022-04": 233,
+    "2022-05": 188,
+    "2022-06": 171,
+    "2022-07": 160,
+    "2022-08": 143,
+    "2022-09": 204,
+    "2022-10": 166,
+    "2022-11": 225,
+    "2022-12": 158,
+    "2023-01": 158,
+    "2023-02": 100,
+    "2023-03": 117,
+    "2023-04": 86,
+    "2023-05": 97,
+    "2023-06": 19
+   },
+   "busiest_month": [
+    "2021-06",
+    2425
+   ],
+   "month_with_highest_max_magnitude": [
+    "2021-07",
+    4.7
+   ],
+   "yearly_counts": {
+    "2021": 7423,
+    "2022": 2621,
+    "2023": 577
+   },
+   "yearly_stats": {
+    "2021": {
+     "n": 7423,
+     "mag_max": 4.7,
+     "mag_mean": 0.88,
+     "depth_mean": 10.19
+    },
+    "2022": {
+     "n": 2621,
+     "mag_max": 4.1,
+     "mag_mean": 0.8,
+     "depth_mean": 10.5
+    },
+    "2023": {
+     "n": 577,
+     "mag_max": 3.7,
+     "mag_mean": 0.84,
+     "depth_mean": 10.73
+    }
+   },
+   "first_calendar_month": {
+    "month": "2021-06",
+    "n": 2425,
+    "mag_mean": 0.94,
+    "mag_max": 4.3,
+    "depth_mean": 10.49
+   },
+   "last_calendar_month": {
+    "month": "2023-06",
+    "n": 19,
+    "mag_mean": 1.07,
+    "mag_max": 3.1,
+    "depth_mean": 11.4
+   },
+   "first_30_days": {
+    "n": 2432,
+    "mag_mean": 0.94,
+    "mag_max": 4.3
+   },
+   "last_30_days": {
+    "n": 97,
+    "mag_mean": 0.91,
+    "mag_max": 3.7
+   },
+   "first_half_by_time": {
+    "until": "2022-06-05",
+    "n": 8853,
+    "mag_mean": 0.86,
+    "mag_max": 4.7,
+    "largest": "2021-07-08 13:23:23 M4.70 (34.717, 97.984) depth 10.6 km",
+    "depth_mean": 10.23,
+    "lat_std": 0.1074,
+    "lon_std": 0.53,
+    "median_interevent_h": 0.36
+   },
+   "second_half_by_time": {
+    "from": "2022-06-05",
+    "n": 1768,
+    "mag_mean": 0.82,
+    "mag_max": 3.7,
+    "largest": "2022-07-28 16:32:14 M3.70 (34.734, 97.864) depth 9.8 km",
+    "depth_mean": 10.6,
+    "lat_std": 0.119,
+    "lon_std": 0.5345,
+    "median_interevent_h": 2.925
+   },
+   "interevent_time_hours": {
+    "median": 0.474,
+    "mean": 1.667,
+    "max": 73.6
+   },
+   "interval_between_max_and_min_magnitude_events_days": 37.25,
+   "corr_mag_depth": {
+    "pearson_r": -0.021,
+    "spearman_rho": -0.008
+   },
+   "bounds": {
+    "date_min": "2021-06-01",
+    "date_max": "2023-06-08",
+    "lat": [
+     33.753,
+     35.383
+    ],
+    "lon": [
+     97.348,
+     99.471
+    ],
+    "depth": [
+     0.09,
+     18.63
+    ],
+    "mag": [
+     0.5,
+     4.7
+    ]
+   }
+  },
+  "per_qid_reference": {
+   "A1": null,
+   "A2": "Time range 2021-06-01 07:25:33 to 2023-06-08 20:38:50 (737.6 days); 10621 events; magnitude range M0.5 to M4.7.",
+   "A3": null,
+   "A4": null,
+   "A5": null,
+   "A6": "Duration 737.6 days; spatial extent about 181.3 km N-S by 194.2 km E-W (lat 33.753-35.383, lon 97.348-99.471).",
+   "A7": null,
+   "A8": "Depth range 0.09-18.63 km; mean 10.29 km; median 10.76 km; histogram (km): {'0-5': 488, '5-10': 3693, '10-15': 6282, '15-20': 158, '20-30': 0, '>30': 0}.",
+   "A9": null,
+   "A10": "Busiest month 2021-06 (2425 events); busiest day 2021-07-24 (148 events); busiest ISO week 2021-06-14/2021-06-20 (689 events).",
+   "A11": null,
+   "A12": null,
+   "A13": "Earliest event 2021-06-01 07:25:33 M0.50 (34.625, 98.424) depth 9.6 km; latest event 2023-06-08 20:38:50 M0.60 (34.571, 98.612) depth 11.0 km.",
+   "A14": null,
+   "A15": "Duration 737.6 days; spatial extent about 181.3 km N-S by 194.2 km E-W (lat 33.753-35.383, lon 97.348-99.471).",
+   "A16": "65 events with M>=3.0.",
+   "A17": null,
+   "A18": null,
+   "A19": "Last calendar month 2023-06: 19 events, max M3.1; last 30 days: 97 events.",
+   "A20": null,
+   "B1": "Busiest day 2021-07-24 with 148 events; busiest month 2021-06 with 2425 events.",
+   "B2": "Largest event: 2021-07-08 13:23:23 M4.70 (34.717, 97.984) depth 10.6 km.",
+   "B3": "Top 5 by magnitude: 2021-07-08 13:23:23 M4.70 (34.717, 97.984) depth 10.6 km; 2021-08-10 22:35:56 M4.70 (34.635, 98.313) depth 10.9 km; 2021-06-03 05:55:16 M4.30 (34.708, 97.893) depth 14.2 km; 2021-07-06 01:50:51 M4.20 (34.667, 98.268) depth 10.7 km; 2021-07-07 07:27:09 M4.20 (34.493, 98.995) depth 9.6 km.",
+   "B4": "Deepest: 2022-06-14 20:31:18 M0.70 (34.973, 97.624) depth 18.6 km. Shallowest: 2023-02-23 10:43:40 M0.60 (34.717, 99.100) depth 0.1 km.",
+   "B5": "Median magnitude M0.7 (mean M0.86).",
+   "B6": "Quietest day with at least one event: 2023-06-08 (1 event(s)); 16 calendar days inside the span have zero events, e.g. 2022-10-21, 2023-02-05, 2023-02-19, 2023-03-10, 2023-03-11.",
+   "B7": "65 events with M>=3.0. Dates: 2021-06-01 M3.20; 2021-06-01 M3.20; 2021-06-03 M4.30; 2021-06-03 M3.00; 2021-06-06 M3.80; 2021-06-09 M3.40; 2021-06-10 M3.20; 2021-06-12 M3.20; 2021-06-12 M3.20; 2021-06-12 M3.00; 2021-06-12 M3.50; 2021-06-13 M3.00; 2021-06-13 M3.00; 2021-06-15 M3.60; 2021-06-15 M3.10; 2021-06-16 M3.40; 2021-06-16 M3.00; 2021-06-17 M3.10; 2021-06-19 M3.10; 2021-06-22 M3.20; 2021-06-23 M3.10; 2021-07-01 M3.00; 2021-07-02 M3.20; 2021-07-03 M3.40; 2021-07-06 M4.20; 2021-07-07 M4.20; 2021-07-07 M3.90; 2021-07-08 M3.00; 2021-07-08 M4.70; 2021-07-09 M3.50....",
+   "B8": "Five shallowest: 2023-02-23 10:43:40 M0.60 (34.717, 99.100) depth 0.1 km; 2022-10-18 22:17:56 M0.70 (34.166, 98.197) depth 0.1 km; 2021-10-16 02:35:46 M1.00 (34.487, 99.187) depth 0.1 km; 2022-03-30 21:15:46 M0.70 (34.155, 99.471) depth 0.2 km; 2023-05-14 17:02:09 M0.50 (34.267, 97.932) depth 0.2 km.",
+   "B9": "About 14.4 events per day (10621 events over 737.6 days).",
+   "B10": "347 events with 2.0<=M<=3.0 (335 with 2.0<=M<3.0).",
+   "B11": "Mean depth 10.29 km (median 10.76 km).",
+   "B12": "Month with the highest maximum magnitude: 2021-07 (M4.7).",
+   "B13": "Reference point taken as the largest event's epicenter. Five closest events: 2021-11-26 09:20:23 M0.70 (34.718, 97.983) depth 6.9 km [0.07 km]; 2021-07-08 14:11:14 M0.70 (34.718, 97.984) depth 7.1 km [0.09 km]; 2021-07-08 22:25:47 M1.10 (34.718, 97.984) depth 5.7 km [0.12 km]; 2022-01-05 11:41:22 M0.50 (34.719, 97.984) depth 10.9 km [0.18 km]; 2021-06-16 04:29:10 M0.50 (34.718, 97.982) depth 5.6 km [0.19 km].",
+   "B14": "Magnitude std 0.47; range M0.5 to M4.7.",
+   "B15": "Top-10 magnitude events span 2021-06-03 to 2023-05-14.",
+   "B16": "Depth-interval counts (km): {'0-5': 488, '5-10': 3693, '10-15': 6282, '15-20': 158, '20-30': 0, '>30': 0}.",
+   "B17": "Interval between largest (2021-07-08 13:23:23) and smallest (2021-06-01 07:25:33) magnitude events: 37.25 days.",
+   "B18": "Busiest ISO week 2021-06-14/2021-06-20 with 689 events.",
+   "B19": "Pearson r = -0.021, Spearman rho = -0.008 between magnitude and depth (weak/negligible if |r|<0.1).",
+   "B20": "10621 events in total; 7749 (73.0%) have M<1.0.",
+   "C1": "Busiest day 2021-07-24: 148 events, M0.5-M2.6, largest 2021-07-24 03:59:56 M2.60 (34.739, 97.753) depth 11.1 km.",
+   "C2": "59 events with 3.0<=M<=4.0, dates 2021-06-01 to 2023-06-03.",
+   "C3": null,
+   "C4": null,
+   "C5": "Second most active day 2021-06-14 with 123 events.",
+   "C6": "127 events within 24 h after the largest event (2021-07-08 13:23:23); largest of them: 2021-07-09 06:29:29 M3.50 (34.717, 97.974) depth 6.4 km.",
+   "C7": "666 events within 5 km of the largest event's epicenter (largest-event epicenter used as 'the epicenter').",
+   "C8": "6282 events with depth 10-15 km.",
+   "C9": null,
+   "C10": null,
+   "C11": null,
+   "C12": null,
+   "C13": "127 events within 24 h after the largest event (2021-07-08 13:23:23); largest of them: 2021-07-09 06:29:29 M3.50 (34.717, 97.974) depth 6.4 km.",
+   "C14": null,
+   "C15": "Top 5 by magnitude: 2021-07-08 13:23:23 M4.70 (34.717, 97.984) depth 10.6 km; 2021-08-10 22:35:56 M4.70 (34.635, 98.313) depth 10.9 km; 2021-06-03 05:55:16 M4.30 (34.708, 97.893) depth 14.2 km; 2021-07-06 01:50:51 M4.20 (34.667, 98.268) depth 10.7 km; 2021-07-07 07:27:09 M4.20 (34.493, 98.995) depth 9.6 km.",
+   "C16": null,
+   "C17": "Ten earliest events: 2021-06-01 07:25:33 M0.50 (34.625, 98.424) depth 9.6 km; 2021-06-01 09:46:28 M0.50 (34.627, 98.475) depth 12.2 km; 2021-06-01 10:07:15 M1.20 (34.565, 98.604) depth 12.1 km; 2021-06-01 11:00:43 M1.10 (34.630, 98.481) depth 9.7 km; 2021-06-01 11:11:31 M0.90 (34.618, 98.492) depth 12.7 km; 2021-06-01 11:43:53 M2.00 (34.603, 98.494) depth 12.9 km; 2021-06-01 12:10:32 M1.10 (34.628, 98.416) depth 10.1 km; 2021-06-01 12:24:14 M1.30 (34.619, 98.473) depth 8.9 km; 2021-06-01 12:25:31 M1.50 (34.591, 98.534) depth 9.3 km; 2021-06-01 12:33:18 M3.20 (34.631, 98.461) depth 12.9 km.",
+   "C18": null,
+   "C19": null,
+   "C20": null,
+   "D1": null,
+   "D2": null,
+   "D3": null,
+   "D4": null,
+   "D5": null,
+   "D6": null,
+   "D7": null,
+   "D8": null,
+   "D9": null,
+   "D10": null,
+   "D11": null,
+   "D12": null,
+   "D13": null,
+   "D14": null,
+   "D15": null,
+   "D16": null,
+   "D17": null,
+   "D18": null,
+   "D19": null,
+   "D20": null,
+   "E1": "First half (to 2022-06-05): 8853 events, mean M0.86, max M4.7. Second half: 1768 events, mean M0.82, max M3.7.",
+   "E2": null,
+   "E3": null,
+   "E4": "First calendar month 2021-06: 2425 events, mean M0.94, max M4.3. Last calendar month 2023-06: 19 events, mean M1.07, max M3.1. (First 30 days: 2432; last 30 days: 97.)",
+   "E5": null,
+   "E6": null,
+   "E7": "Mean depth first half 10.23 km vs second half 10.6 km.",
+   "E8": null,
+   "E9": "First 30 days: 2432 events; last 30 days: 97 events (compare rates).",
+   "E10": null,
+   "E11": null,
+   "E12": "Largest event in first half: 2021-07-08 13:23:23 M4.70 (34.717, 97.984) depth 10.6 km. Largest in second half: 2022-07-28 16:32:14 M3.70 (34.734, 97.864) depth 9.8 km.",
+   "E13": null,
+   "E14": null,
+   "E15": "Yearly statistics: {'2021': {'n': 7423, 'mag_max': 4.7, 'mag_mean': np.float64(0.88), 'depth_mean': np.float64(10.19)}, '2022': {'n': 2621, 'mag_max': 4.1, 'mag_mean': np.float64(0.8), 'depth_mean': np.float64(10.5)}, '2023': {'n': 577, 'mag_max': 3.7, 'mag_mean': np.float64(0.84), 'depth_mean': np.float64(10.73)}}.",
+   "E16": null,
+   "E17": null,
+   "E18": "Median inter-event time first half 0.36 h vs second half 2.925 h (overall median 0.474 h).",
+   "E19": null,
+   "E20": null
+  }
+ },
+ "luding": {
+  "label": "2022 Luding (held-out)",
+  "catalog_path": "ProjectC1_Graphrag/seisKG_graphrag_luding/input/import_earthquakes.txt",
+  "narrative_path": null,
+  "facts_text": "GROUND TRUTH for the ingested 2022 Luding (held-out) catalog (the only data the question refers to):\n- total events: 8061\n- time span: 2022-09-04 03:29:03 to 2022-12-02 23:23:23 (89.8 days)\n- latitude 29.155 to 30.015; longitude 101.715 to 102.513 (about 95.7 km N-S x 77.2 km E-W)\n- depth 0.02-21.78 km, mean 5.81 km, median 5.65 km; counts by interval (km): {'0-5': 2821, '5-10': 5050, '10-15': 175, '15-20': 14, '20-30': 1, '>30': 0}\n- magnitude M0.5 to M4.5, mean M1.19, median M1.1, std 0.54; histogram: {'[0,1)': 3172, '[1,2)': 4138, '[2,3)': 691, '[3,4)': 58, '[4,5)': 2}\n- events with M>=3: 60; with 2.0<=M<=3.0: 698; with M<1: 3172 (39.3%)\n- largest event: 2022-09-05 12:56:35 M4.50 (29.404, 102.194) depth 12.4 km\n- top 5 by magnitude: 2022-09-05 12:56:35 M4.50 (29.404, 102.194) depth 12.4 km | 2022-09-05 17:39:21 M4.00 (29.386, 102.188) depth 13.9 km | 2022-09-05 13:28:47 M3.80 (29.610, 102.019) depth 5.9 km | 2022-09-06 17:54:47 M3.80 (29.621, 102.018) depth 8.9 km | 2022-09-05 18:31:19 M3.70 (29.430, 102.169) depth 11.1 km\n- deepest: 2022-09-07 11:44:23 M0.90 (29.735, 102.051) depth 21.8 km; shallowest: 2022-09-06 01:29:03 M1.70 (29.429, 102.130) depth 0.0 km\n- busiest day: 2022-09-06 (451 events); second: 2022-09-07 (431); busiest month: 2022-09 (4535); busiest ISO week: 2022-09-05/2022-09-11 (2476)\n- quietest day with events: 2022-09-04 (1); zero-event days inside span: 0\n- mean rate: 89.74 events/day\n- monthly counts: {'2022-09': 4535, '2022-10': 2153, '2022-11': 1318, '2022-12': 55}\n- yearly counts: {'2022': 8061}\n- first half (to 2022-10-19): 5469 events, max M4.5, mean depth 5.9 km; second half: 2592 events, max M3.4, mean depth 5.63 km\n- first calendar month 2022-09: 4535 events; last calendar month 2022-12: 55 events\n- events within 24 h after the largest event: 604; within 5 km of its epicenter: 701\n- magnitude-depth correlation: Pearson r 0.151",
+  "facts": {
+   "n_events": 8061,
+   "first_event": "2022-09-04 03:29:03 M1.30 (29.522, 101.967) depth 7.6 km",
+   "last_event": "2022-12-02 23:23:23 M0.50 (29.592, 102.014) depth 3.5 km",
+   "time_span_days": 89.8,
+   "lat_range": [
+    29.155,
+    30.015
+   ],
+   "lon_range": [
+    101.715,
+    102.513
+   ],
+   "extent_km_ns": 95.7,
+   "extent_km_ew": 77.2,
+   "depth_range_km": [
+    0.02,
+    21.78
+   ],
+   "depth_mean_km": 5.81,
+   "depth_median_km": 5.65,
+   "depth_histogram_km": {
+    "0-5": 2821,
+    "5-10": 5050,
+    "10-15": 175,
+    "15-20": 14,
+    "20-30": 1,
+    ">30": 0
+   },
+   "mag_range": [
+    0.5,
+    4.5
+   ],
+   "mag_mean": 1.19,
+   "mag_median": 1.1,
+   "mag_std": 0.54,
+   "mag_histogram": {
+    "[0,1)": 3172,
+    "[1,2)": 4138,
+    "[2,3)": 691,
+    "[3,4)": 58,
+    "[4,5)": 2
+   },
+   "n_M_lt_1": 3172,
+   "share_M_lt_1_pct": 39.3,
+   "n_M_ge_3": 60,
+   "M_ge_3_events": [
+    "2022-09-05 12:55:21 M3.60 (29.618, 102.061) depth 4.0 km",
+    "2022-09-05 12:56:35 M4.50 (29.404, 102.194) depth 12.4 km",
+    "2022-09-05 12:58:30 M3.20 (29.422, 102.161) depth 0.8 km",
+    "2022-09-05 13:03:14 M3.50 (29.619, 102.055) depth 8.9 km",
+    "2022-09-05 13:04:01 M3.00 (29.613, 102.088) depth 4.5 km",
+    "2022-09-05 13:10:24 M3.50 (29.467, 102.165) depth 4.9 km",
+    "2022-09-05 13:15:31 M3.30 (29.509, 102.117) depth 7.8 km",
+    "2022-09-05 13:28:23 M3.30 (29.451, 102.158) depth 7.5 km",
+    "2022-09-05 13:28:47 M3.80 (29.610, 102.019) depth 5.9 km",
+    "2022-09-05 13:31:40 M3.00 (29.407, 102.151) depth 10.7 km",
+    "2022-09-05 13:34:13 M3.10 (29.604, 102.022) depth 4.7 km",
+    "2022-09-05 13:34:28 M3.10 (29.410, 102.147) depth 1.9 km",
+    "2022-09-05 13:38:00 M3.50 (29.485, 102.199) depth 10.4 km",
+    "2022-09-05 13:47:10 M3.10 (29.491, 102.214) depth 8.1 km",
+    "2022-09-05 15:26:35 M3.30 (29.449, 102.166) depth 10.9 km",
+    "2022-09-05 16:07:48 M3.30 (29.618, 102.021) depth 5.3 km",
+    "2022-09-05 16:19:05 M3.30 (29.615, 102.026) depth 7.1 km",
+    "2022-09-05 17:39:21 M4.00 (29.386, 102.188) depth 13.9 km",
+    "2022-09-05 18:31:19 M3.70 (29.430, 102.169) depth 11.1 km",
+    "2022-09-05 19:27:29 M3.40 (29.427, 102.170) depth 7.4 km",
+    "2022-09-06 04:19:38 M3.10 (29.426, 102.174) depth 12.6 km",
+    "2022-09-06 05:15:15 M3.60 (29.425, 102.171) depth 12.5 km",
+    "2022-09-06 05:33:34 M3.20 (29.431, 102.166) depth 11.1 km",
+    "2022-09-06 08:09:13 M3.40 (29.579, 102.108) depth 8.2 km",
+    "2022-09-06 10:07:06 M3.40 (29.380, 102.196) depth 12.1 km",
+    "2022-09-06 12:51:17 M3.30 (29.665, 102.085) depth 5.6 km",
+    "2022-09-06 15:16:36 M3.30 (29.619, 102.019) depth 6.6 km",
+    "2022-09-06 15:23:10 M3.20 (29.428, 102.171) depth 12.2 km",
+    "2022-09-06 17:54:47 M3.80 (29.621, 102.018) depth 8.9 km",
+    "2022-09-06 18:16:43 M3.10 (29.611, 102.036) depth 6.2 km",
+    "2022-09-06 23:53:29 M3.30 (29.222, 102.320) depth 9.5 km",
+    "2022-09-07 08:34:35 M3.70 (29.508, 102.209) depth 10.2 km",
+    "2022-09-07 12:18:57 M3.10 (29.610, 102.027) depth 7.6 km",
+    "2022-09-07 15:26:54 M3.30 (29.666, 102.073) depth 7.8 km",
+    "2022-09-08 10:38:21 M3.50 (29.394, 102.165) depth 5.1 km",
+    "2022-09-08 22:54:10 M3.20 (29.460, 102.165) depth 11.0 km",
+    "2022-09-09 12:48:16 M3.10 (29.580, 101.988) depth 8.6 km",
+    "2022-09-09 12:53:36 M3.40 (29.602, 102.007) depth 5.9 km",
+    "2022-09-11 01:31:21 M3.00 (29.835, 101.984) depth 8.1 km",
+    "2022-09-11 14:33:29 M3.20 (29.952, 101.944) depth 5.8 km",
+    "2022-09-14 15:18:38 M3.00 (29.641, 102.075) depth 5.9 km",
+    "2022-09-18 18:03:05 M3.30 (29.413, 102.170) depth 6.0 km",
+    "2022-09-20 12:45:30 M3.10 (29.428, 102.162) depth 5.3 km",
+    "2022-09-20 23:44:21 M3.10 (29.630, 102.015) depth 4.2 km",
+    "2022-09-23 13:55:03 M3.30 (29.698, 102.075) depth 5.9 km",
+    "2022-10-03 09:52:09 M3.40 (29.629, 102.023) depth 5.9 km",
+    "2022-10-03 12:36:17 M3.00 (29.835, 101.982) depth 6.7 km",
+    "2022-10-04 10:10:04 M3.20 (29.700, 102.075) depth 5.5 km",
+    "2022-10-14 15:59:40 M3.20 (29.382, 102.188) depth 6.8 km",
+    "2022-10-14 16:39:11 M3.40 (29.383, 102.184) depth 6.7 km",
+    "2022-10-18 14:34:45 M3.00 (29.901, 101.880) depth 7.7 km",
+    "2022-10-22 14:36:58 M3.10 (29.597, 102.033) depth 6.5 km",
+    "2022-10-23 05:09:13 M3.00 (29.612, 102.016) depth 5.9 km",
+    "2022-10-23 16:23:03 M3.30 (29.607, 102.031) depth 4.8 km",
+    "2022-10-26 07:53:58 M3.30 (29.613, 102.027) depth 6.7 km",
+    "2022-10-27 08:26:13 M3.10 (29.536, 101.766) depth 9.7 km",
+    "2022-11-16 18:44:00 M3.10 (29.588, 101.995) depth 8.4 km",
+    "2022-11-16 20:33:07 M3.10 (29.588, 102.001) depth 8.1 km",
+    "2022-11-23 16:55:48 M3.40 (29.451, 101.938) depth 10.2 km",
+    "2022-11-27 17:44:28 M3.10 (29.420, 102.154) depth 6.8 km"
+   ],
+   "n_M_2_to_3_inclusive": 698,
+   "n_M_2_to_3_excl_upper": 691,
+   "n_M_3_to_4": 59,
+   "M_3_to_4_date_range": [
+    "2022-09-05",
+    "2022-11-27"
+   ],
+   "largest_event": "2022-09-05 12:56:35 M4.50 (29.404, 102.194) depth 12.4 km",
+   "smallest_event": "2022-09-07 09:01:00 M0.50 (29.803, 101.995) depth 8.0 km",
+   "deepest_event": "2022-09-07 11:44:23 M0.90 (29.735, 102.051) depth 21.8 km",
+   "shallowest_event": "2022-09-06 01:29:03 M1.70 (29.429, 102.130) depth 0.0 km",
+   "top5_by_magnitude": [
+    "2022-09-05 12:56:35 M4.50 (29.404, 102.194) depth 12.4 km",
+    "2022-09-05 17:39:21 M4.00 (29.386, 102.188) depth 13.9 km",
+    "2022-09-05 13:28:47 M3.80 (29.610, 102.019) depth 5.9 km",
+    "2022-09-06 17:54:47 M3.80 (29.621, 102.018) depth 8.9 km",
+    "2022-09-05 18:31:19 M3.70 (29.430, 102.169) depth 11.1 km"
+   ],
+   "top10_by_magnitude_date_range": [
+    "2022-09-05",
+    "2022-09-07"
+   ],
+   "five_shallowest": [
+    "2022-09-06 01:29:03 M1.70 (29.429, 102.130) depth 0.0 km",
+    "2022-09-07 20:31:31 M0.80 (29.541, 102.157) depth 0.0 km",
+    "2022-09-08 02:21:53 M1.20 (29.647, 102.020) depth 0.0 km",
+    "2022-10-04 23:57:19 M0.50 (29.583, 102.128) depth 0.3 km",
+    "2022-09-09 23:00:51 M1.70 (29.570, 102.040) depth 0.5 km"
+   ],
+   "ten_earliest": [
+    "2022-09-04 03:29:03 M1.30 (29.522, 101.967) depth 7.6 km",
+    "2022-09-05 12:55:21 M3.60 (29.618, 102.061) depth 4.0 km",
+    "2022-09-05 12:56:35 M4.50 (29.404, 102.194) depth 12.4 km",
+    "2022-09-05 12:58:30 M3.20 (29.422, 102.161) depth 0.8 km",
+    "2022-09-05 13:02:05 M2.70 (29.443, 102.180) depth 11.0 km",
+    "2022-09-05 13:03:14 M3.50 (29.619, 102.055) depth 8.9 km",
+    "2022-09-05 13:04:01 M3.00 (29.613, 102.088) depth 4.5 km",
+    "2022-09-05 13:09:09 M2.70 (29.404, 102.211) depth 7.3 km",
+    "2022-09-05 13:09:48 M2.60 (29.504, 102.117) depth 8.4 km",
+    "2022-09-05 13:10:24 M3.50 (29.467, 102.165) depth 4.9 km"
+   ],
+   "five_closest_to_largest_event_epicenter": [
+    "2022-09-08 17:10:38 M2.20 (29.404, 102.193) depth 5.4 km [0.05 km]",
+    "2022-09-14 07:13:59 M0.80 (29.404, 102.193) depth 5.8 km [0.13 km]",
+    "2022-09-09 01:35:29 M0.70 (29.404, 102.191) depth 5.2 km [0.23 km]",
+    "2022-09-09 00:35:39 M1.50 (29.402, 102.192) depth 5.7 km [0.24 km]",
+    "2022-09-05 23:56:56 M1.80 (29.405, 102.192) depth 8.4 km [0.27 km]"
+   ],
+   "n_within_5km_of_largest_event": 701,
+   "n_within_24h_after_largest_event": 604,
+   "largest_within_24h_after_largest_event": "2022-09-05 17:39:21 M4.00 (29.386, 102.188) depth 13.9 km",
+   "n_depth_10_to_15km": 175,
+   "busiest_day": [
+    "2022-09-06",
+    451
+   ],
+   "second_busiest_day": [
+    "2022-09-07",
+    431
+   ],
+   "busiest_day_events_summary": {
+    "n": 451,
+    "mag_range": [
+     0.6,
+     3.8
+    ],
+    "largest": "2022-09-06 17:54:47 M3.80 (29.621, 102.018) depth 8.9 km"
+   },
+   "quietest_day_with_events": [
+    "2022-09-04",
+    1
+   ],
+   "n_days_with_zero_events_in_span": 0,
+   "zero_event_days_examples": [],
+   "busiest_iso_week": [
+    "2022-09-05/2022-09-11",
+    2476
+   ],
+   "events_per_day_mean": 89.74,
+   "monthly_counts": {
+    "2022-09": 4535,
+    "2022-10": 2153,
+    "2022-11": 1318,
+    "2022-12": 55
+   },
+   "busiest_month": [
+    "2022-09",
+    4535
+   ],
+   "month_with_highest_max_magnitude": [
+    "2022-09",
+    4.5
+   ],
+   "yearly_counts": {
+    "2022": 8061
+   },
+   "yearly_stats": {
+    "2022": {
+     "n": 8061,
+     "mag_max": 4.5,
+     "mag_mean": 1.19,
+     "depth_mean": 5.81
+    }
+   },
+   "first_calendar_month": {
+    "month": "2022-09",
+    "n": 4535,
+    "mag_mean": 1.28,
+    "mag_max": 4.5,
+    "depth_mean": 5.96
+   },
+   "last_calendar_month": {
+    "month": "2022-12",
+    "n": 55,
+    "mag_mean": 1.09,
+    "mag_max": 2.3,
+    "depth_mean": 5.69
+   },
+   "first_30_days": {
+    "n": 4742,
+    "mag_mean": 1.27,
+    "mag_max": 4.5
+   },
+   "last_30_days": {
+    "n": 1307,
+    "mag_mean": 1.08,
+    "mag_max": 3.4
+   },
+   "first_half_by_time": {
+    "until": "2022-10-19",
+    "n": 5469,
+    "mag_mean": 1.24,
+    "mag_max": 4.5,
+    "largest": "2022-09-05 12:56:35 M4.50 (29.404, 102.194) depth 12.4 km",
+    "depth_mean": 5.9,
+    "lat_std": 0.1391,
+    "lon_std": 0.085,
+    "median_interevent_h": 0.078
+   },
+   "second_half_by_time": {
+    "from": "2022-10-19",
+    "n": 2592,
+    "mag_mean": 1.08,
+    "mag_max": 3.4,
+    "largest": "2022-11-23 16:55:48 M3.40 (29.451, 101.938) depth 10.2 km",
+    "depth_mean": 5.63,
+    "lat_std": 0.0872,
+    "lon_std": 0.0553,
+    "median_interevent_h": 0.182
+   },
+   "interevent_time_hours": {
+    "median": 0.101,
+    "mean": 0.267,
+    "max": 33.4
+   },
+   "interval_between_max_and_min_magnitude_events_days": 1.84,
+   "corr_mag_depth": {
+    "pearson_r": 0.151,
+    "spearman_rho": 0.115
+   },
+   "bounds": {
+    "date_min": "2022-09-04",
+    "date_max": "2022-12-02",
+    "lat": [
+     29.155,
+     30.015
+    ],
+    "lon": [
+     101.715,
+     102.513
+    ],
+    "depth": [
+     0.02,
+     21.78
+    ],
+    "mag": [
+     0.5,
+     4.5
+    ]
+   }
+  },
+  "per_qid_reference": {
+   "A1": null,
+   "A2": "Time range 2022-09-04 03:29:03 to 2022-12-02 23:23:23 (89.8 days); 8061 events; magnitude range M0.5 to M4.5.",
+   "A3": null,
+   "A4": null,
+   "A5": null,
+   "A6": "Duration 89.8 days; spatial extent about 95.7 km N-S by 77.2 km E-W (lat 29.155-30.015, lon 101.715-102.513).",
+   "A7": null,
+   "A8": "Depth range 0.02-21.78 km; mean 5.81 km; median 5.65 km; histogram (km): {'0-5': 2821, '5-10': 5050, '10-15': 175, '15-20': 14, '20-30': 1, '>30': 0}.",
+   "A9": null,
+   "A10": "Busiest month 2022-09 (4535 events); busiest day 2022-09-06 (451 events); busiest ISO week 2022-09-05/2022-09-11 (2476 events).",
+   "A11": null,
+   "A12": null,
+   "A13": "Earliest event 2022-09-04 03:29:03 M1.30 (29.522, 101.967) depth 7.6 km; latest event 2022-12-02 23:23:23 M0.50 (29.592, 102.014) depth 3.5 km.",
+   "A14": null,
+   "A15": "Duration 89.8 days; spatial extent about 95.7 km N-S by 77.2 km E-W (lat 29.155-30.015, lon 101.715-102.513).",
+   "A16": "60 events with M>=3.0.",
+   "A17": null,
+   "A18": null,
+   "A19": "Last calendar month 2022-12: 55 events, max M2.3; last 30 days: 1307 events.",
+   "A20": null,
+   "B1": "Busiest day 2022-09-06 with 451 events; busiest month 2022-09 with 4535 events.",
+   "B2": "Largest event: 2022-09-05 12:56:35 M4.50 (29.404, 102.194) depth 12.4 km.",
+   "B3": "Top 5 by magnitude: 2022-09-05 12:56:35 M4.50 (29.404, 102.194) depth 12.4 km; 2022-09-05 17:39:21 M4.00 (29.386, 102.188) depth 13.9 km; 2022-09-05 13:28:47 M3.80 (29.610, 102.019) depth 5.9 km; 2022-09-06 17:54:47 M3.80 (29.621, 102.018) depth 8.9 km; 2022-09-05 18:31:19 M3.70 (29.430, 102.169) depth 11.1 km.",
+   "B4": "Deepest: 2022-09-07 11:44:23 M0.90 (29.735, 102.051) depth 21.8 km. Shallowest: 2022-09-06 01:29:03 M1.70 (29.429, 102.130) depth 0.0 km.",
+   "B5": "Median magnitude M1.1 (mean M1.19).",
+   "B6": "Quietest day with at least one event: 2022-09-04 (1 event(s)); 0 calendar days inside the span have zero events.",
+   "B7": "60 events with M>=3.0. Dates: 2022-09-05 M3.60; 2022-09-05 M4.50; 2022-09-05 M3.20; 2022-09-05 M3.50; 2022-09-05 M3.00; 2022-09-05 M3.50; 2022-09-05 M3.30; 2022-09-05 M3.30; 2022-09-05 M3.80; 2022-09-05 M3.00; 2022-09-05 M3.10; 2022-09-05 M3.10; 2022-09-05 M3.50; 2022-09-05 M3.10; 2022-09-05 M3.30; 2022-09-05 M3.30; 2022-09-05 M3.30; 2022-09-05 M4.00; 2022-09-05 M3.70; 2022-09-05 M3.40; 2022-09-06 M3.10; 2022-09-06 M3.60; 2022-09-06 M3.20; 2022-09-06 M3.40; 2022-09-06 M3.40; 2022-09-06 M3.30; 2022-09-06 M3.30; 2022-09-06 M3.20; 2022-09-06 M3.80; 2022-09-06 M3.10....",
+   "B8": "Five shallowest: 2022-09-06 01:29:03 M1.70 (29.429, 102.130) depth 0.0 km; 2022-09-07 20:31:31 M0.80 (29.541, 102.157) depth 0.0 km; 2022-09-08 02:21:53 M1.20 (29.647, 102.020) depth 0.0 km; 2022-10-04 23:57:19 M0.50 (29.583, 102.128) depth 0.3 km; 2022-09-09 23:00:51 M1.70 (29.570, 102.040) depth 0.5 km.",
+   "B9": "About 89.74 events per day (8061 events over 89.8 days).",
+   "B10": "698 events with 2.0<=M<=3.0 (691 with 2.0<=M<3.0).",
+   "B11": "Mean depth 5.81 km (median 5.65 km).",
+   "B12": "Month with the highest maximum magnitude: 2022-09 (M4.5).",
+   "B13": "Reference point taken as the largest event's epicenter. Five closest events: 2022-09-08 17:10:38 M2.20 (29.404, 102.193) depth 5.4 km [0.05 km]; 2022-09-14 07:13:59 M0.80 (29.404, 102.193) depth 5.8 km [0.13 km]; 2022-09-09 01:35:29 M0.70 (29.404, 102.191) depth 5.2 km [0.23 km]; 2022-09-09 00:35:39 M1.50 (29.402, 102.192) depth 5.7 km [0.24 km]; 2022-09-05 23:56:56 M1.80 (29.405, 102.192) depth 8.4 km [0.27 km].",
+   "B14": "Magnitude std 0.54; range M0.5 to M4.5.",
+   "B15": "Top-10 magnitude events span 2022-09-05 to 2022-09-07.",
+   "B16": "Depth-interval counts (km): {'0-5': 2821, '5-10': 5050, '10-15': 175, '15-20': 14, '20-30': 1, '>30': 0}.",
+   "B17": "Interval between largest (2022-09-05 12:56:35) and smallest (2022-09-07 09:01:00) magnitude events: 1.84 days.",
+   "B18": "Busiest ISO week 2022-09-05/2022-09-11 with 2476 events.",
+   "B19": "Pearson r = 0.151, Spearman rho = 0.115 between magnitude and depth (weak/negligible if |r|<0.1).",
+   "B20": "8061 events in total; 3172 (39.3%) have M<1.0.",
+   "C1": "Busiest day 2022-09-06: 451 events, M0.6-M3.8, largest 2022-09-06 17:54:47 M3.80 (29.621, 102.018) depth 8.9 km.",
+   "C2": "59 events with 3.0<=M<=4.0, dates 2022-09-05 to 2022-11-27.",
+   "C3": null,
+   "C4": null,
+   "C5": "Second most active day 2022-09-07 with 431 events.",
+   "C6": "604 events within 24 h after the largest event (2022-09-05 12:56:35); largest of them: 2022-09-05 17:39:21 M4.00 (29.386, 102.188) depth 13.9 km.",
+   "C7": "701 events within 5 km of the largest event's epicenter (largest-event epicenter used as 'the epicenter').",
+   "C8": "175 events with depth 10-15 km.",
+   "C9": null,
+   "C10": null,
+   "C11": null,
+   "C12": null,
+   "C13": "604 events within 24 h after the largest event (2022-09-05 12:56:35); largest of them: 2022-09-05 17:39:21 M4.00 (29.386, 102.188) depth 13.9 km.",
+   "C14": null,
+   "C15": "Top 5 by magnitude: 2022-09-05 12:56:35 M4.50 (29.404, 102.194) depth 12.4 km; 2022-09-05 17:39:21 M4.00 (29.386, 102.188) depth 13.9 km; 2022-09-05 13:28:47 M3.80 (29.610, 102.019) depth 5.9 km; 2022-09-06 17:54:47 M3.80 (29.621, 102.018) depth 8.9 km; 2022-09-05 18:31:19 M3.70 (29.430, 102.169) depth 11.1 km.",
+   "C16": null,
+   "C17": "Ten earliest events: 2022-09-04 03:29:03 M1.30 (29.522, 101.967) depth 7.6 km; 2022-09-05 12:55:21 M3.60 (29.618, 102.061) depth 4.0 km; 2022-09-05 12:56:35 M4.50 (29.404, 102.194) depth 12.4 km; 2022-09-05 12:58:30 M3.20 (29.422, 102.161) depth 0.8 km; 2022-09-05 13:02:05 M2.70 (29.443, 102.180) depth 11.0 km; 2022-09-05 13:03:14 M3.50 (29.619, 102.055) depth 8.9 km; 2022-09-05 13:04:01 M3.00 (29.613, 102.088) depth 4.5 km; 2022-09-05 13:09:09 M2.70 (29.404, 102.211) depth 7.3 km; 2022-09-05 13:09:48 M2.60 (29.504, 102.117) depth 8.4 km; 2022-09-05 13:10:24 M3.50 (29.467, 102.165) depth 4.9 km.",
+   "C18": null,
+   "C19": null,
+   "C20": null,
+   "D1": null,
+   "D2": null,
+   "D3": null,
+   "D4": null,
+   "D5": null,
+   "D6": null,
+   "D7": null,
+   "D8": null,
+   "D9": null,
+   "D10": null,
+   "D11": null,
+   "D12": null,
+   "D13": null,
+   "D14": null,
+   "D15": null,
+   "D16": null,
+   "D17": null,
+   "D18": null,
+   "D19": null,
+   "D20": null,
+   "E1": "First half (to 2022-10-19): 5469 events, mean M1.24, max M4.5. Second half: 2592 events, mean M1.08, max M3.4.",
+   "E2": null,
+   "E3": null,
+   "E4": "First calendar month 2022-09: 4535 events, mean M1.28, max M4.5. Last calendar month 2022-12: 55 events, mean M1.09, max M2.3. (First 30 days: 4742; last 30 days: 1307.)",
+   "E5": null,
+   "E6": null,
+   "E7": "Mean depth first half 5.9 km vs second half 5.63 km.",
+   "E8": null,
+   "E9": "First 30 days: 4742 events; last 30 days: 1307 events (compare rates).",
+   "E10": null,
+   "E11": null,
+   "E12": "Largest event in first half: 2022-09-05 12:56:35 M4.50 (29.404, 102.194) depth 12.4 km. Largest in second half: 2022-11-23 16:55:48 M3.40 (29.451, 101.938) depth 10.2 km.",
+   "E13": null,
+   "E14": null,
+   "E15": "Yearly statistics: {'2022': {'n': 8061, 'mag_max': 4.5, 'mag_mean': np.float64(1.19), 'depth_mean': np.float64(5.81)}}.",
+   "E16": null,
+   "E17": null,
+   "E18": "Median inter-event time first half 0.078 h vs second half 0.182 h (overall median 0.101 h).",
+   "E19": null,
+   "E20": null
+  }
+ }
+}

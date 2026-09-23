@@ -1,0 +1,42 @@
+# ---- GraphRAG indexing results and caches (regenerable from prompts + settings + input) ----
+**/output/
+**/output_pre_redesign_backup/
+**/cache/
+**/logs/
+**/lancedb/
+**/*.parquet
+**/index_run.log
+*.log
+
+# ---- LaTeX project (synced with Overleaf); the compiled manuscript PDFs are tracked instead ----
+seisKG_graphragoutputs/paper/IEEEAccess9.22/
+
+# ---- scripts written during the revision ----
+*.py
+*.ipynb
+seisKG_graphragoutputs/paper/scoring/*.sh
+seisKG_graphragoutputs/paper/graph_quality/run_all.sh
+
+# ---- scoring caches (raw API responses; results are in per_answer_scores.csv) ----
+seisKG_graphragoutputs/paper/scoring/judge_cache/
+seisKG_graphragoutputs/paper/scoring/stage2_cache/
+seisKG_graphragoutputs/paper/scoring/stage2_cache_zh_partial/
+seisKG_graphragoutputs/paper/scoring/heldout_cache/
+seisKG_graphragoutputs/paper/scoring/translate_cache/
+
+# ---- third-party catalogs (Shelly 2020; Guan et al. 2024): not redistributed ----
+seisKG_graphrag_ridgecrest*/input/
+seisKG_graphrag_maduo*/input/
+
+# ---- secrets, system and tool files ----
+.env
+.env.*
+.DS_Store
+__pycache__/
+.claude/
+~$*
+
+# ---- editor backups inside workspaces; third-party paper PDFs ----
+*.bak
+*.bak2
+seisKG_graphragoutputs/reference/*.pdf

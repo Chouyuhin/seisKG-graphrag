@@ -1,0 +1,16 @@
+catalog,condition,prompts,index,n_relationships,share_rel_both_event_records,share_rel_one_event_record,n_event_event,n_event_event_resolved,stated_relation_checked,stated_relation_precision,share_within_24h,share_within_5km,share_within_24h_and_5km,median_dt_hours,median_dist_km,share_in_ref_nearby,share_in_ref_next_event,share_in_ref_nearby_or_next,recall_ref_next_event,recall_ref_nearby,n_ref_next_event,n_ref_nearby,n_clusters,cluster_members_total,cluster_size_median,cluster_time_span_h_median,cluster_rms_radius_km_median,share_clusters_within_24h,share_clusters_radius_le_5km,cluster_purity_vs_ref_louvain_weighted,share_clusters_pure_vs_ref_louvain
+Qiaojia,catalog-only,default,"Qiaojia catalog-only, default",3920,0.0411,0.4122,2050,161,41.0,1.0,1.0,0.323,0.323,0.27,14.67,0.1056,0.6335,0.7391,0.0226,0.0004,4521.0,43275.0,,,,,,,,,
+Qiaojia,+narrative,default,"Qiaojia +narrative, default",4102,0.0556,0.3491,2389,228,40.0,1.0,1.0,0.2632,0.2632,0.84,17.63,0.1009,0.4561,0.557,0.0228,0.0005,4521.0,43275.0,,,,,,,,,
+Ridgecrest,catalog-only,default,"Ridgecrest catalog-only, default",2449,0.0,0.5729,778,0,,,,,,,,,,,,,,,,,,,,,,,
+Ridgecrest,+narrative,default,"Ridgecrest +narrative, default",2540,0.0,0.6169,882,0,,,,,,,,,,,,,,,,,,,,,,,
+Maduo,catalog-only,default,"Maduo catalog-only, default",11784,0.0757,0.5868,3312,892,611.0,1.0,0.9955,0.1132,0.1121,0.6,46.16,,,,,,,,,,,,,,,,
+Maduo,+narrative,default,"Maduo +narrative, default",11815,0.0786,0.5738,3417,929,494.0,0.998,0.9978,0.1066,0.1066,0.45,42.34,,,,,,,,,,,,,,,,
+Qiaojia,catalog-only,stage 1,"Qiaojia catalog-only, stage 1",9372,0.9211,0.0242,9139,8633,8428.0,0.9402,0.9951,0.2402,0.2401,0.78,16.45,0.0644,0.3918,0.4562,0.6403,0.0112,4521.0,43275.0,,,,,,,,,
+Ridgecrest,catalog-only,stage 1,"Ridgecrest catalog-only, stage 1",14181,0.9295,0.0478,13498,13181,13179.0,0.9319,1.0,0.2354,0.2354,0.06,14.02,,,,,,,,,,,,,,,,
+Maduo,catalog-only,stage 1,"Maduo catalog-only, stage 1",30033,0.9571,0.0292,29156,28746,28175.0,0.9286,0.9969,0.1196,0.1193,1.38,44.01,,,,,,,,,,,,,,,,
+Qiaojia,catalog-only,stage 2,"Qiaojia catalog-only, stage 2",6354,0.0003,0.8322,2,2,2.0,1.0,1.0,1.0,1.0,0.0,0.75,0.5,0.5,1.0,0.0002,0.0,4521.0,43275.0,879.0,5206.0,4.0,0.9,10.65,0.9761,0.3265,0.5316,0.273
+Qiaojia,+narrative,stage 2,"Qiaojia +narrative, stage 2",6415,0.0,0.826,0,0,,,,,,,,,,,,,,,883.0,5228.0,4.0,0.84,10.41,0.9841,0.333,0.5347,0.2661
+Ridgecrest,catalog-only,stage 2,"Ridgecrest catalog-only, stage 2",4985,0.0052,0.8788,26,26,26.0,0.0385,1.0,0.0769,0.0769,0.04,21.6,,,,,,,,347.0,4367.0,13.0,0.3,15.54,1.0,0.0634,,
+Ridgecrest,+narrative,stage 2,"Ridgecrest +narrative, stage 2",4996,0.0044,0.8737,30,22,21.0,0.4286,1.0,0.1818,0.1818,0.03,23.71,,,,,,,,355.0,4320.0,13.0,0.29,15.39,1.0,0.0789,,
+Maduo,catalog-only,stage 2,"Maduo catalog-only, stage 2",13299,0.0008,0.8579,10,10,10.0,0.4,1.0,0.3,0.3,1.4,16.93,,,,,,,,1380.0,11299.0,7.0,5.54,43.54,0.921,0.0942,,
+Maduo,+narrative,stage 2,"Maduo +narrative, stage 2",13232,0.0011,0.8586,16,15,15.0,0.1333,1.0,0.1333,0.1333,0.37,71.07,,,,,,,,1326.0,11301.0,8.0,5.92,43.94,0.9193,0.0822,,

@@ -1,0 +1,243 @@
+condition,comparison,convention,scope,n_pairs,mean_diff,ci_low,ci_high,improved,worsened,unchanged,significant
+qiaojia_only,stage 1 - default,lenient,all,100,-0.07,-0.28,0.16,23,37,40,no
+qiaojia_only,stage 1 - default,lenient,A,20,-0.7,-1.05,-0.35,2,14,4,yes
+qiaojia_only,stage 1 - default,lenient,B,20,-0.15,-0.45,0.15,3,5,12,no
+qiaojia_only,stage 1 - default,lenient,C,20,-0.2,-0.6,0.25,4,7,9,no
+qiaojia_only,stage 1 - default,lenient,D,20,1.3,0.8,1.75,13,1,6,yes
+qiaojia_only,stage 1 - default,lenient,E,20,-0.6,-0.95,-0.25,1,10,9,yes
+qiaojia_only,stage 1 - default,strict,all,100,-0.28,-0.53,-0.03,21,44,35,yes
+qiaojia_only,stage 1 - default,strict,A,20,-0.95,-1.35,-0.5,2,14,4,yes
+qiaojia_only,stage 1 - default,strict,B,20,-0.3,-0.65,0.0,2,6,12,no
+qiaojia_only,stage 1 - default,strict,C,20,-0.6,-1.05,-0.1,3,11,6,yes
+qiaojia_only,stage 1 - default,strict,D,20,1.3,0.8,1.75,13,1,6,yes
+qiaojia_only,stage 1 - default,strict,E,20,-0.85,-1.25,-0.45,1,12,7,yes
+qiaojia_only,stage 2 - default,lenient,all,100,0.04,-0.18,0.26,26,32,42,no
+qiaojia_only,stage 2 - default,lenient,A,20,-0.35,-0.75,0.0,3,7,10,no
+qiaojia_only,stage 2 - default,lenient,B,20,-0.15,-0.55,0.25,4,7,9,no
+qiaojia_only,stage 2 - default,lenient,C,20,-0.25,-0.6,0.15,2,7,11,no
+qiaojia_only,stage 2 - default,lenient,D,20,1.45,1.05,1.85,15,0,5,yes
+qiaojia_only,stage 2 - default,lenient,E,20,-0.5,-0.8,-0.2,2,11,7,yes
+qiaojia_only,stage 2 - default,strict,all,100,-0.18,-0.43,0.07,23,39,38,no
+qiaojia_only,stage 2 - default,strict,A,20,-0.45,-0.85,-0.05,2,7,11,yes
+qiaojia_only,stage 2 - default,strict,B,20,-0.3,-0.75,0.15,3,7,10,no
+qiaojia_only,stage 2 - default,strict,C,20,-0.85,-1.25,-0.4,1,14,5,yes
+qiaojia_only,stage 2 - default,strict,D,20,1.45,1.05,1.85,15,0,5,yes
+qiaojia_only,stage 2 - default,strict,E,20,-0.75,-1.2,-0.3,2,11,7,yes
+qiaojia_only,stage 2 - stage 1,lenient,all,100,0.11,-0.03,0.25,24,15,61,no
+qiaojia_only,stage 2 - stage 1,lenient,A,20,0.35,0.0,0.65,10,2,8,no
+qiaojia_only,stage 2 - stage 1,lenient,B,20,0.0,-0.3,0.3,3,4,13,no
+qiaojia_only,stage 2 - stage 1,lenient,C,20,-0.05,-0.4,0.3,4,6,10,no
+qiaojia_only,stage 2 - stage 1,lenient,D,20,0.15,0.0,0.4,2,0,18,no
+qiaojia_only,stage 2 - stage 1,lenient,E,20,0.1,-0.15,0.35,5,3,12,no
+qiaojia_only,stage 2 - stage 1,strict,all,100,0.1,-0.06,0.27,24,16,60,no
+qiaojia_only,stage 2 - stage 1,strict,A,20,0.5,0.05,0.9,12,3,5,yes
+qiaojia_only,stage 2 - stage 1,strict,B,20,0.0,-0.35,0.35,3,3,14,no
+qiaojia_only,stage 2 - stage 1,strict,C,20,-0.25,-0.6,0.1,1,5,14,no
+qiaojia_only,stage 2 - stage 1,strict,D,20,0.15,0.0,0.4,2,0,18,no
+qiaojia_only,stage 2 - stage 1,strict,E,20,0.1,-0.25,0.45,6,5,9,no
+qiaojia_only,stage 1 - vector-RAG,lenient,all,100,-0.16,-0.31,-0.02,12,23,65,yes
+qiaojia_only,stage 1 - vector-RAG,strict,all,100,0.19,0.0,0.39,28,13,59,no
+qiaojia_only,stage 2 - vector-RAG,lenient,all,100,-0.05,-0.19,0.09,22,24,54,no
+qiaojia_only,stage 2 - vector-RAG,strict,all,100,0.29,0.09,0.49,31,13,56,yes
+qiaojia_narrative,stage 1 - default,lenient,all,100,-0.31,-0.45,-0.18,10,38,52,yes
+qiaojia_narrative,stage 1 - default,lenient,A,20,-0.35,-0.6,-0.05,2,9,9,yes
+qiaojia_narrative,stage 1 - default,lenient,B,20,-0.2,-0.45,0.05,1,4,15,no
+qiaojia_narrative,stage 1 - default,lenient,C,20,-0.2,-0.6,0.2,5,7,8,no
+qiaojia_narrative,stage 1 - default,lenient,D,20,-0.55,-0.8,-0.3,1,12,7,yes
+qiaojia_narrative,stage 1 - default,lenient,E,20,-0.25,-0.5,0.0,1,6,13,no
+qiaojia_narrative,stage 1 - default,strict,all,100,-0.45,-0.62,-0.28,9,40,51,yes
+qiaojia_narrative,stage 1 - default,strict,A,20,-0.45,-0.8,-0.1,2,9,9,yes
+qiaojia_narrative,stage 1 - default,strict,B,20,-0.25,-0.6,0.05,1,4,15,no
+qiaojia_narrative,stage 1 - default,strict,C,20,-0.6,-1.05,-0.15,3,9,8,yes
+qiaojia_narrative,stage 1 - default,strict,D,20,-0.55,-0.8,-0.3,1,12,7,yes
+qiaojia_narrative,stage 1 - default,strict,E,20,-0.4,-0.8,0.0,2,6,12,no
+qiaojia_narrative,stage 2 - default,lenient,all,100,-0.17,-0.33,-0.01,15,32,53,yes
+qiaojia_narrative,stage 2 - default,lenient,A,20,-0.25,-0.55,0.05,2,6,12,no
+qiaojia_narrative,stage 2 - default,lenient,B,20,-0.2,-0.55,0.15,4,7,9,no
+qiaojia_narrative,stage 2 - default,lenient,C,20,0.1,-0.3,0.5,4,3,13,no
+qiaojia_narrative,stage 2 - default,lenient,D,20,0.05,-0.35,0.5,5,5,10,no
+qiaojia_narrative,stage 2 - default,lenient,E,20,-0.55,-0.75,-0.35,0,11,9,yes
+qiaojia_narrative,stage 2 - default,strict,all,100,-0.28,-0.47,-0.09,14,32,54,yes
+qiaojia_narrative,stage 2 - default,strict,A,20,-0.4,-0.75,-0.05,1,6,13,yes
+qiaojia_narrative,stage 2 - default,strict,B,20,-0.2,-0.601,0.2,4,6,10,no
+qiaojia_narrative,stage 2 - default,strict,C,20,0.0,-0.4,0.4,3,4,13,no
+qiaojia_narrative,stage 2 - default,strict,D,20,0.05,-0.35,0.5,5,5,10,no
+qiaojia_narrative,stage 2 - default,strict,E,20,-0.85,-1.25,-0.45,1,11,8,yes
+qiaojia_narrative,stage 2 - stage 1,lenient,all,100,0.14,-0.02,0.3,28,21,51,no
+qiaojia_narrative,stage 2 - stage 1,lenient,A,20,0.1,-0.2,0.35,5,3,12,no
+qiaojia_narrative,stage 2 - stage 1,lenient,B,20,0.0,-0.3,0.25,4,4,12,no
+qiaojia_narrative,stage 2 - stage 1,lenient,C,20,0.3,-0.15,0.8,8,6,6,no
+qiaojia_narrative,stage 2 - stage 1,lenient,D,20,0.6,0.25,0.95,10,1,9,yes
+qiaojia_narrative,stage 2 - stage 1,lenient,E,20,-0.3,-0.55,-0.05,1,7,12,yes
+qiaojia_narrative,stage 2 - stage 1,strict,all,100,0.17,-0.01,0.35,30,17,53,no
+qiaojia_narrative,stage 2 - stage 1,strict,A,20,0.05,-0.3,0.4,6,4,10,no
+qiaojia_narrative,stage 2 - stage 1,strict,B,20,0.05,-0.25,0.35,4,2,14,no
+qiaojia_narrative,stage 2 - stage 1,strict,C,20,0.6,0.15,1.05,9,3,8,yes
+qiaojia_narrative,stage 2 - stage 1,strict,D,20,0.6,0.25,0.95,10,1,9,yes
+qiaojia_narrative,stage 2 - stage 1,strict,E,20,-0.45,-0.8,-0.1,1,7,12,yes
+ridgecrest_only,stage 1 - default,lenient,all,100,-0.11,-0.33,0.12,23,35,42,no
+ridgecrest_only,stage 1 - default,lenient,A,20,-0.4,-0.85,0.05,3,9,8,no
+ridgecrest_only,stage 1 - default,lenient,B,20,-0.15,-0.5,0.25,3,6,11,no
+ridgecrest_only,stage 1 - default,lenient,C,20,-0.5,-1.05,0.05,4,9,7,no
+ridgecrest_only,stage 1 - default,lenient,D,20,0.8,0.2,1.4,10,2,8,yes
+ridgecrest_only,stage 1 - default,lenient,E,20,-0.3,-0.7,0.1,3,9,8,no
+ridgecrest_only,stage 1 - default,strict,all,100,-0.12,-0.35,0.11,22,34,44,no
+ridgecrest_only,stage 1 - default,strict,A,20,-0.35,-0.8,0.15,3,9,8,no
+ridgecrest_only,stage 1 - default,strict,B,20,-0.05,-0.4,0.3,3,4,13,no
+ridgecrest_only,stage 1 - default,strict,C,20,-0.55,-1.05,0.0,4,10,6,no
+ridgecrest_only,stage 1 - default,strict,D,20,0.8,0.2,1.4,10,2,8,yes
+ridgecrest_only,stage 1 - default,strict,E,20,-0.45,-0.85,0.0,2,9,9,no
+ridgecrest_only,stage 2 - default,lenient,all,100,0.13,-0.09,0.36,28,22,50,no
+ridgecrest_only,stage 2 - default,lenient,A,20,0.0,-0.3,0.3,3,4,13,no
+ridgecrest_only,stage 2 - default,lenient,B,20,0.15,-0.35,0.7,6,5,9,no
+ridgecrest_only,stage 2 - default,lenient,C,20,-0.7,-1.2,-0.15,3,11,6,yes
+ridgecrest_only,stage 2 - default,lenient,D,20,1.0,0.5,1.5,11,1,8,yes
+ridgecrest_only,stage 2 - default,lenient,E,20,0.2,0.0,0.45,5,1,14,no
+ridgecrest_only,stage 2 - default,strict,all,100,0.09,-0.13,0.32,24,22,54,no
+ridgecrest_only,stage 2 - default,strict,A,20,0.0,-0.3,0.3,3,4,13,no
+ridgecrest_only,stage 2 - default,strict,B,20,0.25,-0.25,0.8,5,3,12,no
+ridgecrest_only,stage 2 - default,strict,C,20,-0.95,-1.4,-0.45,1,13,6,yes
+ridgecrest_only,stage 2 - default,strict,D,20,1.0,0.5,1.5,11,1,8,yes
+ridgecrest_only,stage 2 - default,strict,E,20,0.15,-0.05,0.35,4,1,15,no
+ridgecrest_only,stage 2 - stage 1,lenient,all,100,0.24,0.07,0.41,29,14,57,yes
+ridgecrest_only,stage 2 - stage 1,lenient,A,20,0.4,0.0,0.85,7,3,10,no
+ridgecrest_only,stage 2 - stage 1,lenient,B,20,0.3,-0.1,0.75,7,4,9,no
+ridgecrest_only,stage 2 - stage 1,lenient,C,20,-0.2,-0.65,0.2,3,6,11,no
+ridgecrest_only,stage 2 - stage 1,lenient,D,20,0.2,0.0,0.5,2,0,18,no
+ridgecrest_only,stage 2 - stage 1,lenient,E,20,0.5,0.2,0.8,10,1,9,yes
+ridgecrest_only,stage 2 - stage 1,strict,all,100,0.21,0.03,0.4,26,13,61,yes
+ridgecrest_only,stage 2 - stage 1,strict,A,20,0.35,-0.1,0.8,7,3,10,no
+ridgecrest_only,stage 2 - stage 1,strict,B,20,0.3,-0.1,0.7,6,2,12,no
+ridgecrest_only,stage 2 - stage 1,strict,C,20,-0.4,-0.85,0.0,1,7,12,no
+ridgecrest_only,stage 2 - stage 1,strict,D,20,0.2,0.0,0.5,2,0,18,no
+ridgecrest_only,stage 2 - stage 1,strict,E,20,0.6,0.25,0.95,10,1,9,yes
+ridgecrest_only,stage 1 - vector-RAG,lenient,all,100,-0.22,-0.38,-0.06,15,30,55,yes
+ridgecrest_only,stage 1 - vector-RAG,strict,all,100,0.12,-0.07,0.32,24,16,60,no
+ridgecrest_only,stage 2 - vector-RAG,lenient,all,100,0.02,-0.17,0.21,34,29,37,no
+ridgecrest_only,stage 2 - vector-RAG,strict,all,100,0.33,0.11,0.56,34,19,47,yes
+ridgecrest_narrative,stage 1 - default,lenient,all,100,-0.44,-0.61,-0.25,11,48,41,yes
+ridgecrest_narrative,stage 1 - default,lenient,A,20,-0.7,-1.05,-0.35,1,11,8,yes
+ridgecrest_narrative,stage 1 - default,lenient,B,20,-0.4,-0.7,-0.099,2,9,9,yes
+ridgecrest_narrative,stage 1 - default,lenient,C,20,-0.35,-0.75,0.05,2,8,10,no
+ridgecrest_narrative,stage 1 - default,lenient,D,20,-0.4,-0.9,0.15,4,11,5,no
+ridgecrest_narrative,stage 1 - default,lenient,E,20,-0.35,-0.65,-0.05,2,9,9,yes
+ridgecrest_narrative,stage 1 - default,strict,all,100,-0.49,-0.67,-0.3,10,47,43,yes
+ridgecrest_narrative,stage 1 - default,strict,A,20,-0.7,-1.05,-0.35,1,11,8,yes
+ridgecrest_narrative,stage 1 - default,strict,B,20,-0.4,-0.7,-0.1,1,8,11,yes
+ridgecrest_narrative,stage 1 - default,strict,C,20,-0.4,-0.8,0.0,2,8,10,no
+ridgecrest_narrative,stage 1 - default,strict,D,20,-0.4,-0.9,0.15,4,11,5,no
+ridgecrest_narrative,stage 1 - default,strict,E,20,-0.55,-0.95,-0.15,2,9,9,yes
+ridgecrest_narrative,stage 2 - default,lenient,all,100,0.02,-0.14,0.18,20,21,59,no
+ridgecrest_narrative,stage 2 - default,lenient,A,20,0.0,-0.2,0.25,1,2,17,no
+ridgecrest_narrative,stage 2 - default,lenient,B,20,0.25,-0.05,0.6,5,2,13,no
+ridgecrest_narrative,stage 2 - default,lenient,C,20,0.0,-0.4,0.4,5,4,11,no
+ridgecrest_narrative,stage 2 - default,lenient,D,20,-0.05,-0.5,0.4,5,7,8,no
+ridgecrest_narrative,stage 2 - default,lenient,E,20,-0.1,-0.4,0.2,4,6,10,no
+ridgecrest_narrative,stage 2 - default,strict,all,100,-0.08,-0.26,0.1,17,24,59,no
+ridgecrest_narrative,stage 2 - default,strict,A,20,-0.05,-0.3,0.25,1,3,16,no
+ridgecrest_narrative,stage 2 - default,strict,B,20,0.1,-0.3,0.5,4,3,13,no
+ridgecrest_narrative,stage 2 - default,strict,C,20,-0.15,-0.6,0.3,4,5,11,no
+ridgecrest_narrative,stage 2 - default,strict,D,20,-0.05,-0.5,0.4,5,7,8,no
+ridgecrest_narrative,stage 2 - default,strict,E,20,-0.25,-0.65,0.1,3,6,11,no
+ridgecrest_narrative,stage 2 - stage 1,lenient,all,100,0.46,0.3,0.63,46,8,46,yes
+ridgecrest_narrative,stage 2 - stage 1,lenient,A,20,0.7,0.35,1.05,12,1,7,yes
+ridgecrest_narrative,stage 2 - stage 1,lenient,B,20,0.65,0.35,0.95,12,1,7,yes
+ridgecrest_narrative,stage 2 - stage 1,lenient,C,20,0.35,-0.15,0.8,9,3,8,no
+ridgecrest_narrative,stage 2 - stage 1,lenient,D,20,0.35,0.05,0.7,6,1,13,yes
+ridgecrest_narrative,stage 2 - stage 1,lenient,E,20,0.25,-0.05,0.5,7,2,11,no
+ridgecrest_narrative,stage 2 - stage 1,strict,all,100,0.41,0.24,0.58,39,9,52,yes
+ridgecrest_narrative,stage 2 - stage 1,strict,A,20,0.65,0.3,1.0,11,1,8,yes
+ridgecrest_narrative,stage 2 - stage 1,strict,B,20,0.5,0.2,0.8,9,1,10,yes
+ridgecrest_narrative,stage 2 - stage 1,strict,C,20,0.25,-0.25,0.75,6,3,11,no
+ridgecrest_narrative,stage 2 - stage 1,strict,D,20,0.35,0.05,0.7,6,1,13,yes
+ridgecrest_narrative,stage 2 - stage 1,strict,E,20,0.3,-0.05,0.7,7,3,10,no
+maduo_only,stage 1 - default,lenient,all,100,0.42,0.21,0.63,44,16,40,yes
+maduo_only,stage 1 - default,lenient,A,20,0.35,0.05,0.65,10,3,7,yes
+maduo_only,stage 1 - default,lenient,B,20,0.3,0.05,0.55,7,1,12,yes
+maduo_only,stage 1 - default,lenient,C,20,-0.3,-0.7,0.1,3,6,11,no
+maduo_only,stage 1 - default,lenient,D,20,1.55,1.05,2.05,14,0,6,yes
+maduo_only,stage 1 - default,lenient,E,20,0.2,-0.2,0.55,10,6,4,no
+maduo_only,stage 1 - default,strict,all,100,-0.01,-0.24,0.23,18,23,59,no
+maduo_only,stage 1 - default,strict,A,20,-0.55,-0.9,-0.25,0,8,12,yes
+maduo_only,stage 1 - default,strict,B,20,0.0,-0.15,0.15,1,1,18,no
+maduo_only,stage 1 - default,strict,C,20,-0.4,-0.9,0.05,3,7,10,no
+maduo_only,stage 1 - default,strict,D,20,1.55,1.05,2.05,14,0,6,yes
+maduo_only,stage 1 - default,strict,E,20,-0.65,-1.05,-0.3,0,7,13,yes
+maduo_only,stage 2 - default,lenient,all,100,0.49,0.3,0.69,48,15,37,yes
+maduo_only,stage 2 - default,lenient,A,20,0.25,-0.1,0.6,10,5,5,no
+maduo_only,stage 2 - default,lenient,B,20,0.3,0.1,0.5,6,0,14,yes
+maduo_only,stage 2 - default,lenient,C,20,0.25,-0.1,0.55,9,4,7,no
+maduo_only,stage 2 - default,lenient,D,20,1.45,0.95,1.9,14,0,6,yes
+maduo_only,stage 2 - default,lenient,E,20,0.2,-0.2,0.6,9,6,5,no
+maduo_only,stage 2 - default,strict,all,100,-0.04,-0.26,0.19,16,24,60,no
+maduo_only,stage 2 - default,strict,A,20,-0.5,-0.85,-0.15,1,8,11,yes
+maduo_only,stage 2 - default,strict,B,20,-0.05,-0.15,0.0,0,1,19,no
+maduo_only,stage 2 - default,strict,C,20,-0.5,-0.85,-0.2,0,7,13,yes
+maduo_only,stage 2 - default,strict,D,20,1.45,1.0,1.9,14,0,6,yes
+maduo_only,stage 2 - default,strict,E,20,-0.6,-1.05,-0.15,1,8,11,yes
+maduo_only,stage 2 - stage 1,lenient,all,100,0.07,-0.03,0.17,17,9,74,no
+maduo_only,stage 2 - stage 1,lenient,A,20,-0.1,-0.25,0.0,0,2,18,no
+maduo_only,stage 2 - stage 1,lenient,B,20,0.0,-0.25,0.25,3,3,14,no
+maduo_only,stage 2 - stage 1,lenient,C,20,0.55,0.25,0.8,13,2,5,yes
+maduo_only,stage 2 - stage 1,lenient,D,20,-0.1,-0.3,0.0,0,1,19,no
+maduo_only,stage 2 - stage 1,lenient,E,20,0.0,-0.15,0.15,1,1,18,no
+maduo_only,stage 2 - stage 1,strict,all,100,-0.03,-0.13,0.07,4,6,90,no
+maduo_only,stage 2 - stage 1,strict,A,20,0.05,0.0,0.15,1,0,19,no
+maduo_only,stage 2 - stage 1,strict,B,20,-0.05,-0.15,0.0,0,1,19,no
+maduo_only,stage 2 - stage 1,strict,C,20,-0.1,-0.45,0.25,2,3,15,no
+maduo_only,stage 2 - stage 1,strict,D,20,-0.1,-0.3,0.0,0,1,19,no
+maduo_only,stage 2 - stage 1,strict,E,20,0.05,-0.15,0.3,1,1,18,no
+maduo_only,stage 1 - vector-RAG,lenient,all,100,-0.14,-0.25,-0.03,4,18,78,yes
+maduo_only,stage 1 - vector-RAG,strict,all,100,0.06,-0.04,0.17,7,3,90,no
+maduo_only,stage 2 - vector-RAG,lenient,all,100,-0.07,-0.17,0.03,5,11,84,no
+maduo_only,stage 2 - vector-RAG,strict,all,100,0.03,-0.06,0.12,5,3,92,no
+maduo_narrative,stage 1 - default,lenient,all,100,0.21,0.04,0.37,46,25,29,yes
+maduo_narrative,stage 1 - default,lenient,A,20,0.5,0.2,0.75,12,2,6,yes
+maduo_narrative,stage 1 - default,lenient,B,20,0.5,0.25,0.75,11,1,8,yes
+maduo_narrative,stage 1 - default,lenient,C,20,0.0,-0.4,0.4,7,6,7,no
+maduo_narrative,stage 1 - default,lenient,D,20,-0.35,-0.75,0.05,6,13,1,no
+maduo_narrative,stage 1 - default,lenient,E,20,0.4,0.05,0.75,10,3,7,yes
+maduo_narrative,stage 1 - default,strict,all,100,-0.24,-0.4,-0.08,13,33,54,yes
+maduo_narrative,stage 1 - default,strict,A,20,-0.35,-0.6,-0.15,0,6,14,yes
+maduo_narrative,stage 1 - default,strict,B,20,-0.15,-0.45,0.1,1,3,16,no
+maduo_narrative,stage 1 - default,strict,C,20,0.05,-0.4,0.45,4,3,13,no
+maduo_narrative,stage 1 - default,strict,D,20,-0.35,-0.75,0.05,6,13,1,no
+maduo_narrative,stage 1 - default,strict,E,20,-0.4,-0.8,0.05,2,8,10,no
+maduo_narrative,stage 2 - default,lenient,all,100,0.26,0.08,0.44,39,19,42,yes
+maduo_narrative,stage 2 - default,lenient,A,20,0.55,0.15,0.95,11,3,6,yes
+maduo_narrative,stage 2 - default,lenient,B,20,0.25,0.0,0.55,5,1,14,no
+maduo_narrative,stage 2 - default,lenient,C,20,-0.15,-0.6,0.25,5,5,10,no
+maduo_narrative,stage 2 - default,lenient,D,20,0.35,-0.1,0.8,10,6,4,no
+maduo_narrative,stage 2 - default,lenient,E,20,0.3,-0.1,0.7,8,4,8,no
+maduo_narrative,stage 2 - default,strict,all,100,0.17,-0.03,0.37,34,22,44,no
+maduo_narrative,stage 2 - default,strict,A,20,0.5,0.05,0.95,10,3,7,yes
+maduo_narrative,stage 2 - default,strict,B,20,-0.05,-0.35,0.25,2,3,15,no
+maduo_narrative,stage 2 - default,strict,C,20,0.0,-0.45,0.45,6,4,10,no
+maduo_narrative,stage 2 - default,strict,D,20,0.35,-0.1,0.8,10,6,4,no
+maduo_narrative,stage 2 - default,strict,E,20,0.05,-0.4,0.5,6,6,8,no
+maduo_narrative,stage 2 - stage 1,lenient,all,100,0.05,-0.1,0.19,21,19,60,no
+maduo_narrative,stage 2 - stage 1,lenient,A,20,0.05,-0.2,0.3,4,3,13,no
+maduo_narrative,stage 2 - stage 1,lenient,B,20,-0.25,-0.5,0.0,1,6,13,no
+maduo_narrative,stage 2 - stage 1,lenient,C,20,-0.15,-0.45,0.15,3,5,12,no
+maduo_narrative,stage 2 - stage 1,lenient,D,20,0.7,0.35,1.05,10,0,10,yes
+maduo_narrative,stage 2 - stage 1,lenient,E,20,-0.1,-0.35,0.15,3,5,12,no
+maduo_narrative,stage 2 - stage 1,strict,all,100,0.41,0.25,0.57,36,5,59,yes
+maduo_narrative,stage 2 - stage 1,strict,A,20,0.85,0.55,1.15,13,0,7,yes
+maduo_narrative,stage 2 - stage 1,strict,B,20,0.1,0.0,0.3,1,0,19,no
+maduo_narrative,stage 2 - stage 1,strict,C,20,-0.05,-0.4,0.3,4,3,13,no
+maduo_narrative,stage 2 - stage 1,strict,D,20,0.7,0.4,1.05,10,0,10,yes
+maduo_narrative,stage 2 - stage 1,strict,E,20,0.45,0.1,0.85,8,2,10,yes
+luding_only,stage 2 - default,lenient,all,100,1.01,0.83,1.2,69,1,30,yes
+luding_only,stage 2 - default,lenient,A,20,0.7,0.45,1.0,12,0,8,yes
+luding_only,stage 2 - default,lenient,B,20,0.6,0.3,1.0,9,0,11,yes
+luding_only,stage 2 - default,lenient,C,20,1.1,0.9,1.3,19,0,1,yes
+luding_only,stage 2 - default,lenient,D,20,1.75,1.1,2.4,13,1,6,yes
+luding_only,stage 2 - default,lenient,E,20,0.9,0.65,1.15,16,0,4,yes
+luding_only,stage 2 - default,strict,all,100,0.62,0.42,0.84,32,3,65,yes
+luding_only,stage 2 - default,strict,A,20,0.3,0.0,0.65,5,1,14,no
+luding_only,stage 2 - default,strict,B,20,0.35,0.05,0.75,4,0,16,yes
+luding_only,stage 2 - default,strict,C,20,0.4,0.1,0.75,5,0,15,yes
+luding_only,stage 2 - default,strict,D,20,1.75,1.1,2.4,13,1,6,yes
+luding_only,stage 2 - default,strict,E,20,0.3,0.0,0.65,5,1,14,no
+luding_only,stage 2 - vector-RAG,lenient,all,100,-0.11,-0.24,0.01,8,17,75,no
+luding_only,stage 2 - vector-RAG,strict,all,100,0.22,0.07,0.37,19,3,78,yes

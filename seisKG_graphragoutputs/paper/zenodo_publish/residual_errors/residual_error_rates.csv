@@ -1,0 +1,25 @@
+system,system_label,catalog,condition,n,refusal,fabricated_records,out_of_scope_values,score_0,impossible_magnitude,out_of_catalog_magnitude,fabricated_ci,out_of_scope_ci,may22_mentioned,may22_as_catalog_data,may22_as_data_pct,n78832_mentioned,n78832_pct,ooc_mainshock_as_data,ooc_mainshock_pct,ooc_mainshock_note,names_mainshock,mainshock_misidentified,mainshock_misidentified_pct_of_100,mainshock_misidentified_pct_of_named
+graphrag_post,"GraphRAG, intermediate revision",Maduo,+narrative,100,78,16,10,12,0,28,16% [10-24],10% [6-17],5.0,5.0,5% [2-11],0.0,0% [0-4],5.0,5% [2-11],22 May 2021 Mw7.4 (before catalog start),,,,
+graphrag_post,"GraphRAG, intermediate revision",Maduo,catalog-only,100,77,19,16,18,0,26,19% [13-28],16% [10-24],10.0,10.0,10% [6-17],0.0,0% [0-4],10.0,10% [6-17],22 May 2021 Mw7.4 (before catalog start),,,,
+graphrag_post,"GraphRAG, intermediate revision",Qiaojia,+narrative,100,39,27,3,20,0,1,27% [19-36],3% [1-8],,,,,,,,,,,,
+graphrag_post,"GraphRAG, intermediate revision",Qiaojia,catalog-only,100,43,30,7,21,0,0,30% [22-40],7% [3-14],,,,,,,,,,,,
+graphrag_post,"GraphRAG, intermediate revision",Ridgecrest,+narrative,100,27,47,24,25,0,0,47% [38-57],24% [17-33],,,,,,,,,10.0,0.0,0% [0-4],0% [0-28]
+graphrag_post,"GraphRAG, intermediate revision",Ridgecrest,catalog-only,100,24,53,36,28,0,0,53% [43-62],36% [27-46],,,,,,,,,14.0,1.0,1% [0-5],7% [1-31]
+graphrag_post2,"GraphRAG, seismology prompts",Luding (held-out),catalog-only,100,65,29,24,16,0,48,29% [21-39],24% [17-33],,,,,,23.0,23% [16-32],"5 Sep 2022 M6.8 (date inside span, record absent; named in every question)",,,,
+graphrag_post2,"GraphRAG, seismology prompts",Maduo,+narrative,100,35,49,54,25,0,83,49% [39-59],54% [44-63],49.0,44.0,44% [35-54],24.0,24% [17-33],44.0,44% [35-54],22 May 2021 Mw7.4 (before catalog start),,,,
+graphrag_post2,"GraphRAG, seismology prompts",Maduo,catalog-only,100,87,15,12,9,0,32,15% [9-23],12% [7-20],1.0,1.0,1% [0-5],0.0,0% [0-4],1.0,1% [0-5],22 May 2021 Mw7.4 (before catalog start),,,,
+graphrag_post2,"GraphRAG, seismology prompts",Qiaojia,+narrative,100,29,34,19,21,0,15,34% [25-44],19% [13-28],,,,,,,,,,,,
+graphrag_post2,"GraphRAG, seismology prompts",Qiaojia,catalog-only,100,43,47,20,19,0,0,47% [38-57],20% [13-29],,,,,,,,,,,,
+graphrag_post2,"GraphRAG, seismology prompts",Ridgecrest,+narrative,100,29,23,26,5,0,0,23% [16-32],26% [18-35],,,,,,,,,61.0,48.0,48% [38-58],79% [67-87]
+graphrag_post2,"GraphRAG, seismology prompts",Ridgecrest,catalog-only,100,29,43,27,20,0,0,43% [34-53],27% [19-36],,,,,,,,,35.0,4.0,4% [2-10],11% [5-26]
+graphrag_pre,"GraphRAG, default prompts",Luding (held-out),catalog-only,100,12,88,90,83,1,90,88% [80-93],90% [83-94],,,,,,63.0,63% [53-72],"5 Sep 2022 M6.8 (date inside span, record absent; named in every question)",,,,
+graphrag_pre,"GraphRAG, default prompts",Maduo,+narrative,100,15,64,76,50,18,98,64% [54-73],76% [67-83],57.0,52.0,52% [42-62],50.0,50% [40-60],52.0,52% [42-62],22 May 2021 Mw7.4 (before catalog start),,,,
+graphrag_pre,"GraphRAG, default prompts",Maduo,catalog-only,100,20,68,56,46,15,86,68% [58-76],56% [46-65],4.0,4.0,4% [2-10],0.0,0% [0-4],4.0,4% [2-10],22 May 2021 Mw7.4 (before catalog start),,,,
+graphrag_pre,"GraphRAG, default prompts",Qiaojia,+narrative,100,10,27,15,16,5,9,27% [19-36],15% [9-23],,,,,,,,,,,,
+graphrag_pre,"GraphRAG, default prompts",Qiaojia,catalog-only,100,8,36,27,16,5,6,36% [27-46],27% [19-36],,,,,,,,,,,,
+graphrag_pre,"GraphRAG, default prompts",Ridgecrest,+narrative,100,8,27,25,17,0,5,27% [19-36],25% [18-34],,,,,,,,,49.0,16.0,16% [10-24],33% [21-47]
+graphrag_pre,"GraphRAG, default prompts",Ridgecrest,catalog-only,100,11,34,38,19,0,13,34% [25-44],38% [29-48],,,,,,,,,49.0,1.0,1% [0-5],2% [0-11]
+vector_rag,Vector-RAG baseline,Luding (held-out),catalog-only,100,98,4,7,1,0,95,4% [2-10],7% [3-14],,,,,,7.0,7% [3-14],"5 Sep 2022 M6.8 (date inside span, record absent; named in every question)",,,,
+vector_rag,Vector-RAG baseline,Maduo,catalog-only,100,98,2,2,2,0,98,2% [1-7],2% [1-7],0.0,0.0,0% [0-4],0.0,0% [0-4],0.0,0% [0-4],22 May 2021 Mw7.4 (before catalog start),,,,
+vector_rag,Vector-RAG baseline,Qiaojia,catalog-only,100,80,7,1,6,0,0,7% [3-14],1% [0-5],,,,,,,,,,,,
+vector_rag,Vector-RAG baseline,Ridgecrest,catalog-only,100,62,16,1,9,0,0,16% [10-24],1% [0-5],,,,,,,,,9.0,1.0,1% [0-5],11% [2-44]

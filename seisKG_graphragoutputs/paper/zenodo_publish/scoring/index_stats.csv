@@ -1,0 +1,18 @@
+catalog,condition,prompts,runtime_s,runtime_min,extract_graph_s,community_reports_s,embeddings_s,text_units,entities,relationships,communities,dominant_entity_type,dominant_type_share_pct,source,path
+qiaojia,only,default,4695,78.2,4256,405,25,398,5247,3920,146,GEO,71.5,benchmarked index (current),ProjectC1_Graphrag/seisKG_graphragoutputs/output
+qiaojia,narrative,default,3249,54.2,2901,290,49,404,5161,4102,136,GEO,69.4,benchmarked index (current),ProjectC1_Graphrag/seisKG_graphrag_qiaojia_narrative/output
+ridgecrest,only,default,1903,31.7,1714,161,17,316,1985,2449,83,GEO,82.8,benchmarked index (current),ProjectC1_Graphrag/seisKG_graphrag_ridgecrest/output
+ridgecrest,narrative,default,2691,44.8,2482,180,22,322,2072,2540,90,GEO,77.9,benchmarked index (current),ProjectC1_Graphrag/seisKG_graphrag_ridgecrest_narrative/output
+maduo,only,default,6082,101.4,4690,1278,89,801,15402,11784,600,GEO,79.4,benchmarked index (current),ProjectC1_Graphrag/seisKG_graphrag_maduo/output
+maduo,narrative,default,6278,104.6,4813,1364,77,810,15658,11815,641,GEO,77.7,benchmarked index (current),ProjectC1_Graphrag/seisKG_graphrag_maduo_narrative/output
+qiaojia,only,stage 1,4720,78.7,4594,64,54,398,5670,9372,27,EVENT,98.3,benchmarked index (backup),ProjectC1_Graphrag/seisKG_graphrag_qiaojia_v2/output_pre_redesign_backup
+ridgecrest,only,stage 1,6284,104.7,6021,212,41,316,4840,14181,98,EVENT,96.4,benchmarked index (backup),ProjectC1_Graphrag/seisKG_graphrag_ridgecrest_v2/output_pre_redesign_backup
+maduo,only,stage 1,12871,214.5,12609,156,97,801,11606,30033,65,EVENT,98.3,benchmarked index (backup),ProjectC1_Graphrag/seisKG_graphrag_maduo_v2/output_pre_redesign_backup
+qiaojia,only,stage 2,475,7.9,12,421,23,398,6157,6354,1004,EVENT,83.3,benchmarked index (current),ProjectC1_Graphrag/seisKG_graphrag_qiaojia_v2/output
+qiaojia,narrative,stage 2,4813,80.2,3047,1687,47,404,6206,6415,1026,EVENT,82.6,benchmarked index (current),ProjectC1_Graphrag/seisKG_graphrag_qiaojia_narrative_v2/output
+ridgecrest,only,stage 2,8434,140.6,6696,1683,41,316,4588,4985,526,EVENT,89.3,benchmarked index (current),ProjectC1_Graphrag/seisKG_graphrag_ridgecrest_v2/output
+ridgecrest,narrative,stage 2,4614,76.9,3326,1239,34,322,4697,4996,535,EVENT,88.8,benchmarked index (current),ProjectC1_Graphrag/seisKG_graphrag_ridgecrest_narrative_v2/output
+maduo,only,stage 2,8166,136.1,4113,3949,71,801,12704,13299,1725,EVENT,85.8,benchmarked index (current),ProjectC1_Graphrag/seisKG_graphrag_maduo_v2/output
+maduo,narrative,stage 2,13555,225.9,9251,4128,100,810,12672,13232,1662,EVENT,86.1,benchmarked index (current),ProjectC1_Graphrag/seisKG_graphrag_maduo_narrative_v2/output
+luding,only,default,766,12.8,251,436,62,606,8593,8300,305,GEO,65.0,benchmarked index (current),ProjectC1_Graphrag/seisKG_graphrag_luding/output
+luding,only,stage 2,1894,31.6,209,1605,53,606,9398,9769,1066,EVENT,88.2,benchmarked index (current),ProjectC1_Graphrag/seisKG_graphrag_luding_v2/output

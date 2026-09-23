@@ -1,0 +1,16 @@
+catalog,condition,prompts,index,index_run,llm_calls,prompt_tokens,cached_prompt_tokens,completion_tokens,embedding_tokens,cost_llm_usd,cost_embedding_usd,cost_total_usd,attribution_note
+Qiaojia,catalog-only,default,"Qiaojia catalog-only, default",2026-01-06 19:39,1705,3632632,1625216,1034219,699057,1.04,0.014,1.06,
+Qiaojia,+narrative,default,"Qiaojia +narrative, default",2026-07-09 09:24,1756,3698131,1991168,1142618,699420,1.09,0.014,1.1,
+Ridgecrest,catalog-only,default,"Ridgecrest catalog-only, default",2026-07-08 22:15,1295,2635505,1410048,663879,491558,0.69,0.01,0.7,
+Ridgecrest,+narrative,default,"Ridgecrest +narrative, default",2026-07-09 09:24,1345,2724779,1391616,721510,511511,0.74,0.01,0.75,
+Maduo,catalog-only,default,"Maduo catalog-only, default",2026-07-09 20:08,3809,8243235,4475776,2301462,1716016,2.28,0.034,2.32,
+Maduo,+narrative,default,"Maduo +narrative, default",2026-07-09 20:08,3832,8416947,4961536,2330785,1756174,2.29,0.035,2.32,
+Qiaojia,catalog-only,stage 1,"Qiaojia catalog-only, stage 1",2026-07-10 08:36,1128,3933161,2961664,1722152,821740,1.4,0.016,1.42,
+Ridgecrest,catalog-only,stage 1,"Ridgecrest catalog-only, stage 1",2026-07-10 08:36,977,3909555,2661632,2320908,692728,1.78,0.014,1.79,
+Maduo,catalog-only,stage 1,"Maduo catalog-only, stage 1",2026-07-10 08:36,2134,8863753,7428096,4707096,1593818,3.6,0.032,3.63,
+Qiaojia,catalog-only,stage 2,"Qiaojia catalog-only, stage 2",2026-07-15 08:59,1794,12097542,8330880,2187700,1469482,2.5,0.029,2.53,extract_graph served from the cache of the run of 2026-07-14 20:08; community_reporting served from the cache of the run of 2026-07-14 20:08
+Qiaojia,+narrative,stage 2,"Qiaojia +narrative, stage 2",2026-07-14 20:08,2179,12493698,9254912,2265811,1508552,2.54,0.03,2.57,
+Ridgecrest,catalog-only,stage 2,"Ridgecrest catalog-only, stage 2",2026-07-15 09:07,1405,9310960,6349696,1554535,974424,1.85,0.019,1.87,
+Ridgecrest,+narrative,stage 2,"Ridgecrest +narrative, stage 2",2026-07-15 11:28,1443,9460892,6523136,1573832,989764,1.87,0.02,1.89,
+Maduo,catalog-only,stage 2,"Maduo catalog-only, stage 2",2026-07-15 21:51,2941,16882200,10545792,3014954,2738792,3.55,0.055,3.61,
+Maduo,+narrative,stage 2,"Maduo +narrative, stage 2",2026-07-15 13:21,3567,23876713,16752256,4077597,2703263,4.77,0.054,4.83,

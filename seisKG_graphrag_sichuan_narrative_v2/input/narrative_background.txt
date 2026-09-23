@@ -1,0 +1,161 @@
+# Sichuan Basin Induced Seismicity Catalog (2009-2018)
+
+## Overview
+
+High-precision earthquake catalogs from the Sichuan Basin, southwestern China, documenting the growing induced seismicity linked to shale gas development and industrial operations.
+
+## Geographic & Temporal Information
+
+| Field | Value |
+|-------|-------|
+| **Region** | Sichuan Basin, China (Changning area) |
+| **Center Coordinates** | 28.1°N, 104.9°E |
+| **Coordinate Range** | 27.9-28.3°N; 104.6-105.2°E |
+| **Time Period** | 2009-2018 (catalog); activity increased significantly post-2015 |
+| **Total Events** | ~2,290 (CEDC catalog); >15,000 (dense network) |
+| **Magnitude Range** | ML ~0.1 to ~1.0 (catalog); up to Mw 4.7 (dense network) |
+| **Completeness Magnitude** | ML 1.1 (dense network) |
+
+## Files in This Catalog
+
+### 1. CEDC catalog.xlsx
+- **Type**: Regional network catalog
+- **Coverage**: 2009-2018
+- **Events**: ~2,290
+- **Columns**: Date, Time(UTC+8), Latitude(°), Longitude(°), Depth(km), Magnitude(ML)
+- **Authority**: China Earthquake Data Center (CEDC)
+
+### 2. Local network catalog.xlsx
+- **Type**: Dense local seismic network
+- **Coverage**: High-resolution observations
+- **Format**: Temporary network deployments
+- **Improved**: Better depth resolution, magnitude precision
+
+### 3. Injection data of N5&N7.xlsx
+- **Type**: Wastewater injection operational data
+- **Wells**: N5 and N7 injection facilities
+- **Data**: Injection rates, volumes, pressures, timing
+- **Purpose**: Correlation analysis with seismic activity
+
+## Seismic Context
+
+### Induced Mechanism
+- **Primary cause**: Shale gas hydraulic fracturing (hydraulic stimulation)
+- **Secondary cause**: Long-term wastewater injection
+- **Historical context**: 
+  - Salt mining injection: >70 years (pre-industrial seismicity era)
+  - Natural gas field injection: ~40 years
+  - Shale gas development: Rapid growth since 2008 (especially post-2015)
+
+### Key Temporal Evolution
+- **Pre-2015**: Low, stable seismicity (background)
+- **2015-2018**: Unprecedented continuous growth in earthquake frequency and magnitude
+- **Spatial evolution**: Seismicity migrated and expanded following injection well locations
+
+## Major Studies & References
+
+### Primary Literature
+
+#### Recent Reviews
+- [Growing Seismicity in the Sichuan Basin and its Association with Industrial Activities](https://link.springer.com/article/10.1007/s11430-020-9646-x)
+  - **Journal**: Science China Earth Sciences (2020)
+  - **Key findings**: Quantified correlation between injection volumes and seismic rates
+
+#### Changning Area Specific
+- [The Temporal and Spatial Evolution Characteristics of Induced Seismicity in the Changning Shale Gas Field Based on Dense Array](https://www.nature.com/articles/s41598-024-77443-1)
+  - **Journal**: Scientific Reports (2024)
+  - **Key contribution**: Dense network analysis of spatial-temporal patterns
+
+- [Seismogenic Structures and Earthquake Mechanisms in the Changning Area, China: Insights from Seismicity and Tomography](https://www.sciencedirect.com/science/article/abs/pii/S0040195123003840)
+  - **Journal**: Tectonophysics (2023)
+  - **Key contribution**: Velocity model inversion and focal mechanism analysis
+
+#### Broader Regional Context
+- [Background and Clustering Characteristics of Recent Seismicity in Southwestern China](https://academic.oup.com/gji/article/238/3/1291/7693134)
+  - **Journal**: Geophysical Journal International (2024)
+  - **Scope**: Multi-basin analysis including Sichuan
+
+- [Seismicity in the Weiyuan-Rongxian Area, Sichuan Basin, SW China](https://www.sciencedirect.com/science/article/abs/pii/S1367912024002360)
+  - **Journal**: Marine and Petroleum Geology (2024)
+  - **Focus**: Another active induced seismicity zone in Sichuan
+
+#### Hydraulic Fracturing Impact
+- [An Investigation of Seismicity Induced by Hydraulic Fracturing in the Sichuan Basin](https://www.researchgate.net/publication/330408315_An_Investigation_of_Seismicity_Induced_by_Hydraulic_Fracturing_in_the_Sichuan_Basin_of_China_Based_on_Data_from_a_Temporary_Seismic_Network)
+  - **Focus**: Temporary network observations of fracturing-triggered events
+
+## Catalog Structure
+
+```
+CEDC catalog.xlsx (Regional Network)
+├── Date: YYYY-MM-DD
+├── Time(UTC+8): HH:MM:SS.s
+├── Latitude(°): WGS84 latitude
+├── Longitude(°): WGS84 longitude
+├── Depth(km): Hypocentral depth
+└── Magnitude(ML): Local magnitude
+
+Local network catalog.xlsx (Dense Array)
+├── High-resolution hypocenter locations
+├── Improved depth accuracy (<1 km)
+└── Better magnitude discrimination
+
+Injection data of N5&N7.xlsx
+├── Well ID: N5, N7
+├── Injection timestamp: Date, time
+├── Injection rate: bbl/day or equivalent
+├── Injection pressure: MPa
+└── Cumulative volume: Million barrels
+```
+
+## Suggested Metrics
+
+### Highly Computable
+- ✅ Magnitude-frequency analysis (b-value, Mc)
+- ✅ Temporal decay (aftershock-like behavior post-injection pulses)
+- ✅ Spatial clustering (convex hull, alpha-shape)
+- ✅ Correlation with injection operations
+
+### Good Candidates
+- ✅ PCA elongation (linear alignment to injection well arrays)
+- ✅ Migration patterns (radial expansion from wells)
+
+### Challenges
+- ⚠️ Mainshock-aftershock classification (swarm-like with multiple peaks)
+- ⚠️ Depth determination (limited velocity model constraints)
+
+## Regional Classification
+
+**Sequence Type**: Induced Seismicity / Shale Gas Development
+
+**Tectonic Setting**: Continental basin, Upper Yangtze Platform
+
+**Stress Regime**: Regional compression, locally modified by pore pressure
+
+## Applications
+
+1. **Induced seismicity monitoring**: Real-time hazard assessment for energy operations
+2. **Injection-seismicity coupling**: Quantify relationship between operational parameters and seismic response
+3. **Hazard mitigation**: Evaluate traffic-light protocols (injection rate/pressure adjustments)
+4. **Stress field analysis**: Understand pre-existing fault orientations reactivated by injection
+5. **Cross-basin comparison**: Compare with Oklahoma/Kansas, Alberta, and other induced seismicity zones
+
+## Important Notes
+
+- Magnitude estimates may change as velocity models are refined
+- Hypocentral depths are uncertain in early catalogs (pre-2015) due to limited network
+- Injection data access may be restricted; available data is from published scientific studies
+- Some events are triggered directly by hydraulic fracturing; others may be delayed pore pressure diffusion responses
+
+## Data Quality Improvements Over Time
+
+| Period | Network Type | Coverage | Completeness | Key Improvement |
+|--------|--------------|----------|--------------|-----------------|
+| 2009-2014 | Regional CEDC | Regional | ML 2.5+ | Baseline |
+| 2015-2016 | Dense deployment | Local | ML 1.1+ | Temporary arrays installed |
+| 2017-2018 | Sustained dense | Local | ML 0.5+ | Multiple network phases |
+
+---
+
+**Related Catalogs**: China Earthquake Administration (CEA), China Earthquake Data Center (CEDC), Provincial Seismic Networks
+
+**Coordination**: Studies involving Sinopec, CNOOC, and CNPC operational data
