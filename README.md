@@ -1,8 +1,6 @@
 <div align="center">
 
-# seisKG-GraphRAG
-
-**Automatic knowledge-graph construction and natural-language query for earthquake catalogs**
+# Automatic knowledge-graph construction and natural-language query for earthquake catalogs
 
 Yuxin Zhou · Huai Zhang · S. Mostafa Mousavi
 
