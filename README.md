@@ -68,7 +68,6 @@ graphrag index --root .
 graphrag query --root . --method global "Which month contributed the highest maximum magnitude?"
 ```
 
-32–226 min · US$0.7–4.8 per catalog at list prices.
 
 ## Rebuild the tables
 
@@ -93,6 +92,6 @@ The prompt fixes remove the targeted fabrication modes on every catalog, includi
 
 <div align="center">
 
-Data: [Zenodo 10.5281/zenodo.21459373](https://doi.org/10.5281/zenodo.21459373) · Ridgecrest catalog: Shelly (2020) · Maduo catalog: Guan et al. (2024)
+Data: [Zenodo 10.5281/zenodo.21459373](https://doi.org/10.5281/zenodo.21459373) · Qiaojia: [Zhou (2026)](https://doi.org/10.48550/arXiv.2607.19606) · Ridgecrest catalog: Shelly (2020) · Maduo catalog: Guan et al. (2024)
 
 </div>
