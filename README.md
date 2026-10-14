@@ -1,11 +1,11 @@
 <div align="center">
 
-# Automatic knowledge-graph construction and natural-language query for earthquake catalogs
+# Automatic Knowledge Graph Construction and Query for Earthquake Catalogs
 
 Yuxin Zhou · Huai Zhang · S. Mostafa Mousavi
 
-[![IEEE Access](https://img.shields.io/badge/IEEE%20Access-Access--2026--42781-00629B?style=flat-square)](#)
-[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.21459373-1682D4?style=flat-square)](https://doi.org/10.5281/zenodo.21459373)
+[![IEEE Access](https://img.shields.io/badge/IEEE%20Access-accepted%20(Access--2026--42781)-00629B?style=flat-square)](#)
+[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.21459372-1682D4?style=flat-square)](https://doi.org/10.5281/zenodo.21459372)
 [![GraphRAG](https://img.shields.io/badge/GraphRAG-2.7.0-5C2D91?style=flat-square)](https://github.com/microsoft/graphrag)
 [![Model](https://img.shields.io/badge/LLM-gpt--4o--mini-black?style=flat-square)](#)
 
@@ -41,7 +41,7 @@ ProjectC1_Graphrag/
 │   └── input/                                      catalog as ingested
 │
 ├── seisKG_graphragoutputs/paper/
-│   ├── IEEEAccess-Revision9.21/Author's Response Files/   Main Manuscript.pdf · Supplementary_material.docx
+│   ├── IEEEAccess-accept/                           FINAL Article.pdf · Supplementary_material.docx
 │   ├── benchmark_*_raw.csv                          every answer, every system
 │   ├── scoring/                                     per_answer_scores.csv, CIs, audit, held-out protocol
 │   ├── graph_quality/                               graph audit vs catalog and rule-based reference graph
@@ -69,7 +69,7 @@ graphrag query --root . --method global "Which month contributed the highest max
 
 ## Rebuild the tables
 
-Scripts live in the Zenodo record, folder `scoring/`, and run in order:
+Scripts live in the Zenodo record (version 6 onward), folder `scoring/`, and run in order:
 `ground_truth` → `prescreen` → `judge --pass 1|2` → `aggregate` → `error_rates` → `index_stats` → `make_figures`.
 Graph metrics: `graph_quality/run_all.sh`. Every number in the paper, the SM and the data set is the same file read three ways.
 
@@ -80,7 +80,7 @@ Graph metrics: `graph_quality/run_all.sh`. Every number in the paper, the SM and
 | | default prompts | seismology prompts | vector-RAG |
 |---|:---:|:---:|:---:|
 | catalog-only mean (Qiaojia · Ridgecrest · Maduo) | 1.35 · 1.38 · 0.78 | **1.39 · 1.51 · 1.27** | 1.44 · 1.49 · 1.34 |
-| impossible magnitudes (600 answers) | 43 | **0** | 0 |
+| impossible magnitudes | 43 | **0** | 0 |
 | records represented as entities | 0.1–16 % | **97–99 %** | — |
 | held-out Luding mean | 0.29 | **1.30** | 1.41 |
 
@@ -90,6 +90,6 @@ The prompt fixes remove the targeted fabrication modes on every catalog, includi
 
 <div align="center">
 
-Data: [Zenodo 10.5281/zenodo.21459373](https://doi.org/10.5281/zenodo.21459373) · Qiaojia: [Zhou (2026)](https://doi.org/10.48550/arXiv.2607.19606) · Ridgecrest catalog: [Shelly (2020)](https://doi.org/10.1785/0220190309) · Maduo catalog: [Guan et al. (2024)](https://www.sciencedirect.com/science/article/pii/S0040195124002609)
+Data: [Zenodo 10.5281/zenodo.21459372](https://doi.org/10.5281/zenodo.21459372) (the paper cites version 10.5281/zenodo.22906332) · Qiaojia: [Zhou et al. (2026)](https://doi.org/10.48550/arXiv.2607.19606) · Ridgecrest catalog: [Shelly (2020)](https://doi.org/10.1785/0220190309) · Maduo catalog: [Guan et al. (2024)](https://www.sciencedirect.com/science/article/pii/S0040195124002609)
 
 </div>
