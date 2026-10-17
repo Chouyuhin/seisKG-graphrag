@@ -4,7 +4,7 @@
 
 Yuxin Zhou · Huai Zhang · S. Mostafa Mousavi
 
-[![IEEE Access](https://img.shields.io/badge/IEEE%20Access-accepted%20(Access--2026--42781)-00629B?style=flat-square)](#)
+[![IEEE Access](https://img.shields.io/badge/IEEE%20Access-accepted%20(Access--2026--42781)-00629B?style=flat-square)](https://doi.org/10.1109/ACCESS.2026.3743834)
 [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.21459372-1682D4?style=flat-square)](https://doi.org/10.5281/zenodo.21459372)
 [![GraphRAG](https://img.shields.io/badge/GraphRAG-2.7.0-5C2D91?style=flat-square)](https://github.com/microsoft/graphrag)
 [![Model](https://img.shields.io/badge/LLM-gpt--4o--mini-black?style=flat-square)](#)
